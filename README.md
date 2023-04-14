@@ -1,5 +1,5 @@
 # TLC_Browers
-一个开源的vb6基于webview2支持h5的浏览器
+一个开源的vb6基于webview2支持html5的浏览器,一个vb6支持html5的方案
 环境配置:
 1.找到dlls文件夹
 2.使用regsvr32.exe注册file_controlv2.dll，mathv3.dll，RC6.dll，Windows_FormApi.dll
@@ -13,7 +13,7 @@ release:正式版包
 项目名称:TLC浏览器(TLC_NLP机器人的附属产品)
 技术架构:在vb6使用webview2 runtime、以及windows api对窗体的操作
 项目特点:使用vb6开发，可实现多标签的效果,接入nlp大模型(实现中)
-参考资料:https://www.vbforums.com/showthread.php?889202-VB6-WebView2-Binding-(Edge-Chromium)
+参考资料:https://www.vbforums.com/showthread.php?889202-VB6-WebView2-Binding-(Edge-Chromium) https://github.com/sysdzw/WebView2DemoForVb6
 power by 福州机电工程职业技术学校 wh
 命令通过共享文件形式，也可以适配成winsock有时候不太稳定，所以采用共享文件
 注册windows7及以上系统
