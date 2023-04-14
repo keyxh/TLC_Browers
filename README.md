@@ -10,7 +10,7 @@ kernel:控制webview2内核的代码
 client:主程序代码，将kernel变为自己的主窗体，进程通信方式:共享文件
 release:正式版包
 
-项目名称:TLC浏览器(TLC_Nlp机器人的附属产品)
+项目名称:TLC浏览器(TLC_NLP机器人的附属产品)
 技术架构:在vb6使用webview2 runtime、以及windows api对窗体的操作
 项目特点:使用vb6开发，可实现多标签的效果,接入nlp大模型(实现中)
 参考资料:https://www.vbforums.com/showthread.php?889202-VB6-WebView2-Binding-(Edge-Chromium)
