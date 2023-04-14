@@ -3,7 +3,7 @@
 环境配置:
 1.找到dlls文件夹
 2.使用regsvr32.exe注册file_controlv2.dll，mathv3.dll，RC6.dll，Windows_FormApi.dll
-3.运行runtime_install.exe在线安装webview runtime
+3.运行runtime_install.exe在线安装webview runtime，在文件目录创建temp文件夹和logs文件夹即可
 
 具体介绍:
 kernel:控制webview2内核的代码
