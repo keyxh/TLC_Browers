@@ -6,11 +6,9 @@
 3.运行runtime_install.exe在线安装webview runtime
 
 具体介绍:
-kernel:
-控制webview2内核的代码
-client:
-主程序代码，将kernel变为自己的主窗体
-进程通信方式:共享文件
+kernel:控制webview2内核的代码
+client:主程序代码，将kernel变为自己的主窗体，进程通信方式:共享文件
+release:正式版包
 
 项目名称:TLC浏览器(TLC_Nlp机器人的附属产品)
 技术架构:在vb6使用webview2 runtime、以及windows api对窗体的操作
