@@ -25,18 +25,36 @@ Begin VB.Form fMain
       BackColor       =   &H00FFFFFF&
       BorderStyle     =   0  'None
       Caption         =   "Frame1"
-      Height          =   495
-      Left            =   2280
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   13.2
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   492
+      Left            =   2160
       TabIndex        =   10
       Top             =   480
-      Width           =   9732
+      Width           =   9012
       Begin VB.Label web_label 
          BackColor       =   &H00FFFFFF&
-         Height          =   372
+         BeginProperty Font 
+            Name            =   "华文楷体"
+            Size            =   9
+            Charset         =   134
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Height          =   382
          Index           =   0
          Left            =   0
          TabIndex        =   11
-         Top             =   120
+         Top             =   50
          Width           =   1812
       End
    End
@@ -77,8 +95,36 @@ Begin VB.Form fMain
    Begin VB.Timer brower_timer 
       Index           =   0
       Interval        =   50
-      Left            =   9240
+      Left            =   11160
+      Top             =   1080
+   End
+   Begin VB.Label question 
+      BackStyle       =   0  'Transparent
+      Caption         =   "?"
+      BeginProperty Font 
+         Name            =   "ROG Fonts"
+         Size            =   16.2
+         Charset         =   0
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
+      Height          =   492
+      Left            =   9480
+      TabIndex        =   12
+      ToolTipText     =   "打开后可查看浏览器的使用方法"
       Top             =   0
+      Width           =   492
+   End
+   Begin VB.Image add_img 
+      Height          =   492
+      Left            =   11160
+      Picture         =   "fMain.frx":74F2
+      Stretch         =   -1  'True
+      Top             =   480
+      Width           =   492
    End
    Begin VB.Label search_label 
       BackStyle       =   0  'Transparent
@@ -124,7 +170,7 @@ Begin VB.Form fMain
    Begin VB.Image go_forward 
       Height          =   495
       Left            =   1560
-      Picture         =   "fMain.frx":74F2
+      Picture         =   "fMain.frx":9A24
       Stretch         =   -1  'True
       Top             =   480
       Width           =   495
@@ -132,7 +178,7 @@ Begin VB.Form fMain
    Begin VB.Image go_reload 
       Height          =   495
       Left            =   960
-      Picture         =   "fMain.frx":14271
+      Picture         =   "fMain.frx":167A3
       Stretch         =   -1  'True
       Top             =   480
       Width           =   495
@@ -140,7 +186,7 @@ Begin VB.Form fMain
    Begin VB.Image go_back 
       Height          =   495
       Left            =   360
-      Picture         =   "fMain.frx":18D5B
+      Picture         =   "fMain.frx":1B28D
       Stretch         =   -1  'True
       Top             =   480
       Width           =   495
@@ -223,16 +269,16 @@ Begin VB.Form fMain
          Strikethrough   =   0   'False
       EndProperty
       ForeColor       =   &H00FFFFFF&
-      Height          =   495
-      Left            =   600
+      Height          =   492
+      Left            =   480
       TabIndex        =   2
       Top             =   0
-      Width           =   3975
+      Width           =   3972
    End
    Begin VB.Image Image1 
       Height          =   492
       Left            =   0
-      Picture         =   "fMain.frx":241AF
+      Picture         =   "fMain.frx":266E1
       Stretch         =   -1  'True
       Top             =   0
       Width           =   492
@@ -251,9 +297,9 @@ Begin VB.Form fMain
       BorderColor     =   &H00FFFFC0&
       BorderStyle     =   0  'Transparent
       Height          =   492
-      Left            =   240
+      Left            =   120
       Shape           =   4  'Rounded Rectangle
-      Top             =   600
+      Top             =   480
       Width           =   11652
    End
 End
@@ -270,6 +316,10 @@ Attribute VB_Exposed = False
 '''命令通过共享文件形式，也可以适配成winsock有时候不太稳定，所以采用共享文件'''
 
 
+Private Sub add_img_Click()
+    create_webview
+End Sub
+
 Sub brower_timer_Timer(Index As Integer)
     Dim get_err() As String
     On Error Resume Next
@@ -281,8 +331,7 @@ Sub brower_timer_Timer(Index As Integer)
 4            If left(get_cmd(i), Len("new_url=")) = "new_url=" Then search_text.Text = Mid(get_cmd(i), Len("new_url=") + 1)
 5            If left(get_cmd(i), Len("new_title=")) = "new_title=" Then web_label(Index).Caption = Mid(get_cmd(i), Len("new_title=") + 1)
 6            If left(get_cmd(i), Len("create_newpage=")) = "create_newpage=" Then create_webview Mid(get_cmd(i), Len("create_newpage=") + 1)
-
-7             If left(get_cmd(i), Len("--errinfo=")) = "--errinfo=" Then '''获取kernel崩溃信息'''
+7            If left(get_cmd(i), Len("--errinfo=")) = "--errinfo=" Then '''获取kernel崩溃信息'''
 8                get_err = Split(Mid(get_cmd(i), Len("--errinfo=") + 1), ",")
 9                err_check get_err(0), get_err(1), get_err(2), get_err(3), get_err(4), get_err(5)
                  logout "An error has been reported in the kernel", "crash"
@@ -314,6 +363,7 @@ Private Sub Form_Load()
 On Error GoTo Err_Handle
     'config_path = Environ("appdata") + "\web_ai\config.config"
      logout "///////////////////////////// Client Log Start /////////////////////////////"
+     If Dir(App.Path + "\temp\", vbDirectory) = "" Then MkDir (App.Path + "\temp\")
      If Dir(App.Path + "\temp\*.*") <> "" Then Kill App.Path + "\temp\*.*"
 1    ControlSize Me.hwnd, True
 2    search_engine = "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&wd="
@@ -323,13 +373,6 @@ Exit Sub
 Err_Handle:
     err_check Erl, Err.description, Err.number, 1, App.EXEName
 End Sub
-
-
-
-
-
-
-
 
 
 
@@ -356,36 +399,42 @@ Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y A
 End Sub
 
 Public Sub Form_Resize()
-    On Error Resume Next
-    If Me.WindowState = 1 Then Exit Sub
+    On Error GoTo Err_Handle
+1    If Me.WindowState = 1 Then Exit Sub
     '''engine'''
-    movebox
+2    movebox
     '''标题栏'''
-    status_label.Width = Me.Width
-    close_bt.left = Me.Width - 700
-    ck.left = close_bt.left - 600
-    min_bt.left = ck.left - 600
+3    status_label.Width = Me.Width
+4    close_bt.left = Me.Width - 700
+5    ck.left = close_bt.left - 600
+6    min_bt.left = ck.left - 600
+7    question.left = min_bt.left - 960
+    
     '''工具箱'''
-    box.Width = Me.Width - 652
-    tab_frame.Width = box.Width - 1920
+8    box.Width = Me.Width - 652
+9    tab_frame.Width = box.Width - 2640
+10   add_img.left = box.Width - 492
     
     '''搜索'''
-    search_shape.Width = Me.Width - 2997
-    search_text.Width = search_shape.Width - 1200
-
+12    search_shape.Width = Me.Width - 2997
+13    search_text.Width = search_shape.Width - 1200
+    
+Exit Sub
+Err_Handle:
+    err_check Erl, Err.description, Err.number, 8, App.EXEName
 End Sub
 
 
 Private Sub go_back_Click()
-     write_to_shader "back"
+     write_to_shader "--back"
 End Sub
 
 Private Sub go_forward_Click()
-    write_to_shader "forward"
+    write_to_shader "--forward"
 End Sub
 
 Private Sub go_reload_Click()
-    write_to_shader "reload"
+    write_to_shader "--reload"
 End Sub
 
 Private Sub Image1_DblClick()
@@ -403,8 +452,16 @@ Private Sub Label1_MouseMove(Button As Integer, Shift As Integer, X As Single, Y
     Form_MouseMove 1, 0, X, Y
 End Sub
 
+Private Sub Label2_Click()
+
+End Sub
+
 Private Sub min_bt_Click()
     Me.WindowState = 1
+End Sub
+
+Private Sub question_Click()
+    MsgBox get_text(App.Path + "\info.txt"), vbInformation, "日志"
 End Sub
 
 Private Sub search_text_KeyPress(KeyAscii As Integer)
@@ -420,8 +477,16 @@ Err_Handle:
     err_check Erl, Err.description, Err.number, 4, App.EXEName
 End Sub
 
+Private Sub status_label_DblClick()
+    ck_Click
+End Sub
+
 Private Sub status_label_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
      Form_MouseMove 1, 0, X, Y
+End Sub
+
+Private Sub web_label_Change(Index As Integer)
+    web_label(Index).ToolTipText = web_label(Index).Caption
 End Sub
 
 Sub web_label_Click(Index As Integer)
@@ -434,4 +499,30 @@ On Error GoTo Err_Handle
 Exit Sub
 Err_Handle:
     err_check Erl, Err.description, Err.number, 5, App.EXEName
+End Sub
+
+Private Sub web_label_DblClick(Index As Integer)
+On Error GoTo Err_Handle
+1     If Index = 0 Then MsgBox "此标签不能删除", 48, "提示": Exit Sub
+     
+2    If MsgBox("是否关闭此标签", vbYesNo, "标签控制") = vbNo Then Exit Sub
+3    set_text shader_file(Index), 3, "--close"
+4     If total - 1 <> Index Then
+5       For i = Index To total - 2 Step 1
+6           shader_file(i) = shader_file(i + 1)
+7           webview_hwnd(i) = webview_hwnd(i + 1)
+8            web_label(i).Caption = web_label(i + 1).Caption
+9            SetParent webview_hwnd(i), picwv(i).hwnd
+10       Next
+11     End If
+12     shader_file(total + 1) = ""
+13     current = current - 1
+14     webview_hwnd(total - 1) = 0
+15     Unload brower_timer(total - 1)
+16     Unload web_label(total - 1)
+17     Unload picwv(total - 1)
+18   total = total - 1
+Exit Sub
+Err_Handle:
+    err_check Erl, Err.description, Err.number, 7, App.EXEName
 End Sub

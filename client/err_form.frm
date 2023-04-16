@@ -12,6 +12,14 @@ Begin VB.Form err_form
    ScaleHeight     =   5772
    ScaleWidth      =   7248
    StartUpPosition =   3  '窗口缺省
+   Begin VB.Image app_icon 
+      Height          =   372
+      Left            =   0
+      Picture         =   "err_form.frx":74F2
+      Stretch         =   -1  'True
+      Top             =   0
+      Width           =   372
+   End
    Begin VB.Label err_ver 
       BackStyle       =   0  'Transparent
       Caption         =   "文件版本:"
@@ -304,7 +312,7 @@ Begin VB.Form err_form
          Strikethrough   =   0   'False
       EndProperty
       Height          =   372
-      Left            =   0
+      Left            =   360
       TabIndex        =   2
       Top             =   0
       Width           =   6732
