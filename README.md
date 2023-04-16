@@ -9,11 +9,20 @@ client:主程序代码，将kernel变为自己的子窗体，
 
 
 
-项目的部署:
-1.找到dlls目录，分别使用regsvr32.exe注册file_controlv2.dll，mathv3.dll，RC6.dll，Windows_FormApi.dll
-2.运行runtime_install.exe在线安装webview runtime，
-3.在主程序文件目录创建temp文件夹和logs文件夹(若需要更改kernel或者client也需要在对于工程目录创建这两个文件夹)，即可运行主程序:TLC_Brower.exe
+软件使用教程:
 
+窗体置顶方法:双击图标即可窗体置顶
+
+多标签的使用:点击+图标可以添加新标签，双击标签则是删除标签 
+
+标签被选中状态为白色，未被选中状态为蓝色
+
+若出现任何问题可发送至github issue或者发送邮箱到xiaohui032901@foxmail.com
+
+
+
+项目的部署:
+clone项目后运行一键reg.bat即可
 
 
 参考资料:https://www.vbforums.com/showthread.php?889202-VB6-WebView2-Binding-(Edge-Chromium) GitHub - sysdzw/WebView2DemoForVb6: WebView2Demo for vb6 
