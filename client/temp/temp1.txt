@@ -1,3 +1,0 @@
---load_urlhttps://gamer.qq.com/v2/about 
---load_urlhttps://gamer.qq.com/
---close
