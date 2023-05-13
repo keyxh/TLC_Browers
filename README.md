@@ -27,7 +27,7 @@ clone项目后运行一键reg.bat即可
 
 参考资料:https://www.vbforums.com/showthread.php?889202-VB6-WebView2-Binding-(Edge-Chromium) GitHub - sysdzw/WebView2DemoForVb6: WebView2Demo for vb6 
 Developed by 福州机电工程职业技术学校 wh
-进程间通信通过共享文件形式，也可以适配成winsock传递，但是不太稳定(目前仍然在开发中，后续会出)。
+进程间通信目前已完成winsock适配
 支持windows7及以上系统
-目前此项目仅开发了3个小时，肯定是存在很多问题的...，若存在问题可以发lssues
+目前此项目已开发100小时+,单仍然可能存在很多问题定是存在很多问题的...，若存在问题可以发lssues
 项目地址:https://github.com/keyxh/TLC_Browers/
