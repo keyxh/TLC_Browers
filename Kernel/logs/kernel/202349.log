@@ -1,0 +1,11 @@
+[0:02:30]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[0:02:30]___[common]:get new size:120 1560 23040 7092
+[0:02:30]___[common]:Kernel Form Starting... hwnd=3282036
+[0:02:30]___[common]:get new size:120 1560 23040 7092
+[0:02:31]___[common]:get variant which is named shader_file= Temp1.txt    get variant which is named get_url= http://www.baidu.com
+[0:02:31]___[common]:Start failed due to the empty_command_line
+[0:03:05]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[0:03:05]___[common]:get new size:120 1560 23040 7092
+[0:03:05]___[common]:Kernel Form Starting... hwnd=397856
+[0:03:05]___[common]:get new size:120 1560 23040 7092
+[0:03:06]___[common]:get variant which is named shader_file= Temp1.txt    get variant which is named get_url= http://www.baidu.com
