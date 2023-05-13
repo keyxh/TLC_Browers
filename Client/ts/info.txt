@@ -1,0 +1,3 @@
+1.介绍:TLC浏览器是一个基于webview2开发的开源浏览器，目前仅实现的浏览器的基本功能
+2.如何工作:它由两部分组成:内核和窗体，通信方式:TCP协议
+3.开源地址:https://github.com/keyxh/TLC_Browers 
