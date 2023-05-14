@@ -361,7 +361,9 @@ End Sub
 
 Sub read_config()
     Dim i As Integer
-    
+    app_data = Environ("appdata") + "\tlc_web"
+    config_path = app_data + "\config.config"
+    If Dir(app_data, vbDirectory) = "" Then MkDir (app_data)
     If Dir(config_path) = "" Then
         search_engine = "https://www.baidu.com/s?wd="
         web_engine = "webview2"
@@ -430,7 +432,7 @@ End Sub
 Private Sub Form_Load()
 On Error GoTo Err_Handle
      If App.PrevInstance Then End
-     config_path = Environ("appdata") + "\tlc_web\config.config"
+     
      logout "///////////////////////////// Client Log Start /////////////////////////////"
      server_client(0).Close
      server_client(0).Listen
