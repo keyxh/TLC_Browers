@@ -1,5 +1,6 @@
 Attribute VB_Name = "kernel_moudel"
-Public shader_file As String, furl As String
+Public Declare Function ShowWindow Lib "user32" (ByVal hwnd As Long, ByVal nCmdShow As Long) As Long
+Public shader_file As String, furl As String, nodump As Boolean
 
 '''winsock实现通信版'''
 
@@ -42,11 +43,11 @@ End Sub
 
 Sub write_to_shader(str As String)
 On Error GoTo Err_Handle
+If kernel_form.tcp_client.State <> 7 Then kernel_form.tcp_client.Connect
 kernel_form.tcp_client.SendData str
-
 Exit Sub
 Err_Handle:
-    write_error Erl, Err.Description, Err.Number, 8
+    logout "err hapeen"
 End Sub
 
 
@@ -60,13 +61,16 @@ On Error GoTo Err_Handle
         '''必要参数，没有就退出'''
 3        If Left(get_cmd(i), Len("init_webview")) = "init_webview" Then Load kernel_form: isinit = True
 5        If Left(get_cmd(i), Len("load_url")) = "load_url" Then get_url = Mid(get_cmd(i), Len("load_url") + 1)
+         If Left(get_cmd(i), Len("nodump")) = "nodump" Then nodump = True
 6    Next
     
 7    logout "get variant which is named get_url=" & get_url
 8    If Not isinit Then logout "There is no initiation form", "error": End
-     write_to_shader "--form_hwnd=" & kernel_form.hWnd
+     write_to_shader "--form_hwnd=" & kernel_form.hwnd
      If InStr(get_url, "http://") <= 0 And InStr(get_url, "https://") <= 0 Then get_url = "http://" + LTrim(get_url): logout "new url=" & get_url ''查看有没有协议名称，没有自动补上，否则会爆炸
 10   If get_url <> "" Then kernel_form.WV.Navigate get_url Else logout "There are no parameters for url", "error": End
+     
+    
 11   furl = get_domain(get_url)
 
 Exit Sub

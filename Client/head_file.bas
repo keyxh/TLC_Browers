@@ -3,7 +3,7 @@ Attribute VB_Name = "head_file"
 Public Declare Function URLDownloadToFile Lib "urlmon.dll" Alias "URLDownloadToFileA" (ByVal pCaller As Long, ByVal szURL As String, ByVal szFileName As String, ByVal dwReserved As Long, ByVal lpfnCB As Long) As Long
 Public Declare Function GetAsyncKeyState Lib "user32" (ByVal vkey As Long) As Integer
 Public Declare Function GetTickCount Lib "kernel32" () As Long
-
+Public Declare Function ShowWindow Lib "user32" (ByVal hwnd As Long, ByVal nCmdShow As Long) As Long
 
 
 Public Declare Function ReleaseCapture Lib "user32" () As Long 'ÎÞ´°Ìå½âËø

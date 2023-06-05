@@ -1,0 +1,179 @@
+[8:47:04]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[8:47:04]___[common]:get new rect=0 0 0 0
+[8:47:04]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[8:47:04]___[common]:get new rect=0 0 0 0
+[8:47:04]___[common]:get new rect=0 0 0 0
+[8:47:04]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[8:47:04]___[common]:get variant load_url= load_url
+[8:47:04]___[common]:client local ip=192.168.0.20 port = 8329
+[8:47:04]___[common]:get new rect=0 0 0 0
+[8:47:05]___[common]:The socket which is named sever_client receives the new connection requestid= 2460 index= 0
+[8:47:05]___[common]:get new server_data=--Activate
+[8:47:05]___[common]:get new server_data=--Activate
+[8:47:05]___[common]:get new server_data=--Activate--Activate
+[8:47:05]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate
+[8:47:05]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate
+[8:47:05]___[common]:get new server_data=--form_hwnd=1053262
+[8:47:05]___[common]:get new rect=0 1023 0 601
+[8:47:05]___[common]:get web_form hwnd=1053262  picwv hwnd=3933698
+[8:47:06]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[8:47:06]___[common]:get new rect=0 1922 130 1078
+[8:47:18]___[common]:get new server_data=--new_url=https://www.baidu.com/s?wd=www.csdn.net --new_title=www.csdn.net_百度搜索
+[8:47:18]___[common]:get new server_data=--Activate--Activate
+[8:47:18]___[common]:get new server_data=--create_newpage=www.baidu.com/link?url=ux8RsBP6Mf2dJIlkKDXmTdpysYTTuRzc7ATn6t61lmi&wd=&eqid=9cc4feee00143e360000000664681895
+[8:47:18]___[common]:get variant load_url= load_url
+[8:47:18]___[common]:The socket which is named sever_client receives the new connection requestid= 2480 index= 1
+[8:47:18]___[common]:get new server_data=--Activate
+[8:47:18]___[common]:get new server_data=--form_hwnd=4001200
+[8:47:18]___[common]:get new rect=0 1922 130 1078
+[8:47:18]___[common]:get new rect=0 1922 0 948
+[8:47:18]___[common]:get web_form hwnd=4001200  picwv hwnd=918918
+[8:47:20]___[common]:get new server_data=--new_url=https://www.csdn.net/ --new_title=CSDN - 专业开发者社区
+[8:47:21]___[common]:get new server_data=--Activate--Activate
+[8:47:24]___[common]:get new server_data=--create_newpage=passport.csdn.net/v1/register/authorization?authType=qq&newAuth=true
+[8:47:24]___[common]:get variant load_url= load_url
+[8:47:24]___[common]:The socket which is named sever_client receives the new connection requestid= 1316 index= 2
+[8:47:24]___[common]:get new server_data=--form_hwnd=5311412
+[8:47:24]___[common]:get new rect=0 1922 130 1078
+[8:47:24]___[common]:get new rect=0 1922 130 1078
+[8:47:24]___[common]:get new rect=0 1922 0 948
+[8:47:24]___[common]:get web_form hwnd=5311412  picwv hwnd=266750
+[8:47:26]___[common]:get new server_data=--Activate
+[8:47:26]___[common]:get new server_data=--Activate
+[8:47:38]___[common]:get new server_data=--Activate--Activate
+[8:47:38]___[common]:get new server_data=--new_url=https://passport.csdn.net/middle?redirectUrl=https%3A%2F%2Fwww.csdn.net%2F --new_title=CSDN-专业IT技术社区-登录
+[8:47:44]___[common]:get new server_data=--Activate--Activate
+[8:47:45]___[common]:get new server_data=--new_url=https://im.csdn.net/chat/ --new_title=(2条消息) 私信-消息-CSDN
+[8:47:51]___[common]:get new server_data=--new_url=https://i.csdn.net/#/msg/index --new_title=评论和@-消息-CSDN
+[8:47:53]___[common]:get new server_data=--create_newpage=blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903
+[8:47:53]___[common]:get variant load_url= load_url
+[8:47:53]___[common]:The socket which is named sever_client receives the new connection requestid= 2208 index= 3
+[8:47:53]___[common]:get new server_data=--form_hwnd=724936
+[8:47:53]___[common]:get new rect=0 1922 130 1078
+[8:47:53]___[common]:get new rect=0 1922 130 1078
+[8:47:53]___[common]:get new rect=0 1922 130 1078
+[8:47:53]___[common]:get new rect=0 1922 0 948
+[8:47:53]___[common]:get web_form hwnd=724936  picwv hwnd=1118442
+[8:47:54]___[common]:get new server_data=--new_url=https://blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903 --new_title=在windows内使用virtualbox搭建安卓x86--以及所遇到的问题解决--3_温辉_xh的博客-CSDN博客
+[8:47:57]___[common]:get new server_data=--Activate--Activate
+[8:47:58]___[common]:get new server_data=--create_newpage=bbs.csdn.net/topics/615418965
+[8:47:58]___[common]:get variant load_url= load_url
+[8:47:58]___[common]:The socket which is named sever_client receives the new connection requestid= 2496 index= 4
+[8:47:58]___[common]:get new server_data=--form_hwnd=1773450
+[8:47:58]___[common]:get new rect=0 1922 130 1078
+[8:47:58]___[common]:get new rect=0 1922 130 1078
+[8:47:58]___[common]:get new rect=0 1922 130 1078
+[8:47:58]___[common]:get new rect=0 1922 130 1078
+[8:47:58]___[common]:get new rect=0 1922 0 948
+[8:47:58]___[common]:get web_form hwnd=1773450  picwv hwnd=3345540
+[8:48:20]___[common]:get new server_data=--new_url=https://bbs.csdn.net/topics/615418965 --new_title=CSDN每天值得看--2023-05-20-CSDN社区
+[8:48:24]___[common]:get new rect=449 1472 136 737
+[8:48:24]___[common]:get new rect=449 1472 136 737
+[8:48:24]___[common]:get new rect=449 1472 136 737
+[8:48:24]___[common]:get new rect=449 1472 136 737
+[8:48:24]___[common]:get new rect=449 1472 136 737
+[8:48:30]___[common]:get new rect=141 1165 218 819
+[8:48:30]___[common]:get new rect=141 1165 218 819
+[8:48:30]___[common]:get new rect=141 1165 218 819
+[8:48:30]___[common]:get new rect=141 1165 218 819
+[8:48:30]___[common]:get new rect=141 1165 218 819
+[8:48:30]___[common]:get new rect=141 1311 218 875
+[8:48:30]___[common]:get new rect=141 1311 218 875
+[8:48:30]___[common]:get new rect=141 1311 218 875
+[8:48:30]___[common]:get new rect=141 1311 218 875
+[8:48:30]___[common]:get new rect=141 1311 218 875
+[8:48:30]___[common]:get new rect=141 1440 218 923
+[8:48:30]___[common]:get new rect=141 1440 218 923
+[8:48:30]___[common]:get new rect=141 1440 218 923
+[8:48:30]___[common]:get new rect=141 1440 218 923
+[8:48:30]___[common]:get new rect=141 1440 218 923
+[8:48:30]___[common]:get new rect=141 1482 218 939
+[8:48:30]___[common]:get new rect=141 1482 218 939
+[8:48:30]___[common]:get new rect=141 1482 218 939
+[8:48:30]___[common]:get new rect=141 1482 218 939
+[8:48:30]___[common]:get new rect=141 1482 218 939
+[8:48:30]___[common]:get new rect=141 1509 218 951
+[8:48:30]___[common]:get new rect=141 1509 218 951
+[8:48:30]___[common]:get new rect=141 1509 218 951
+[8:48:30]___[common]:get new rect=141 1509 218 951
+[8:48:30]___[common]:get new rect=141 1509 218 951
+[8:48:30]___[common]:get new rect=141 1579 218 982
+[8:48:30]___[common]:get new rect=141 1579 218 982
+[8:48:30]___[common]:get new rect=141 1579 218 982
+[8:48:30]___[common]:get new rect=141 1579 218 982
+[8:48:30]___[common]:get new rect=141 1579 218 982
+[8:48:30]___[common]:get new rect=141 1623 218 1009
+[8:48:30]___[common]:get new rect=141 1623 218 1009
+[8:48:30]___[common]:get new rect=141 1623 218 1009
+[8:48:30]___[common]:get new rect=141 1623 218 1009
+[8:48:30]___[common]:get new rect=141 1623 218 1009
+[8:48:30]___[common]:get new rect=141 1633 218 1015
+[8:48:30]___[common]:get new rect=141 1633 218 1015
+[8:48:30]___[common]:get new rect=141 1633 218 1015
+[8:48:30]___[common]:get new rect=141 1633 218 1015
+[8:48:30]___[common]:get new rect=141 1633 218 1015
+[8:48:30]___[common]:get new rect=141 1643 218 1015
+[8:48:30]___[common]:get new rect=141 1643 218 1015
+[8:48:30]___[common]:get new rect=141 1643 218 1015
+[8:48:30]___[common]:get new rect=141 1643 218 1015
+[8:48:30]___[common]:get new rect=141 1643 218 1015
+[8:48:30]___[common]:get new rect=141 1692 218 1015
+[8:48:30]___[common]:get new rect=141 1692 218 1015
+[8:48:30]___[common]:get new rect=141 1692 218 1015
+[8:48:30]___[common]:get new rect=141 1692 218 1015
+[8:48:30]___[common]:get new rect=141 1692 218 1015
+[8:48:31]___[common]:get new rect=141 1706 218 1015
+[8:48:31]___[common]:get new rect=141 1706 218 1015
+[8:48:31]___[common]:get new rect=141 1706 218 1015
+[8:48:31]___[common]:get new rect=141 1706 218 1015
+[8:48:31]___[common]:get new rect=141 1706 218 1015
+[8:48:31]___[common]:get new rect=141 1709 218 1015
+[8:48:31]___[common]:get new rect=141 1709 218 1015
+[8:48:31]___[common]:get new rect=141 1709 218 1015
+[8:48:31]___[common]:get new rect=141 1709 218 1015
+[8:48:31]___[common]:get new rect=141 1709 218 1015
+[8:48:31]___[common]:get new rect=141 1714 218 1015
+[8:48:31]___[common]:get new rect=141 1714 218 1015
+[8:48:31]___[common]:get new rect=141 1714 218 1015
+[8:48:31]___[common]:get new rect=141 1714 218 1015
+[8:48:31]___[common]:get new rect=141 1714 218 1015
+[8:48:31]___[common]:get new rect=141 1715 218 1015
+[8:48:31]___[common]:get new rect=141 1715 218 1015
+[8:48:31]___[common]:get new rect=141 1715 218 1015
+[8:48:31]___[common]:get new rect=141 1715 218 1015
+[8:48:31]___[common]:get new rect=141 1715 218 1015
+[11:46:06]___[common]:get new rect=54 1628 151 948
+[11:46:06]___[common]:get new rect=54 1628 151 948
+[11:46:06]___[common]:get new rect=54 1628 151 948
+[11:46:06]___[common]:get new rect=54 1628 151 948
+[11:46:06]___[common]:get new rect=54 1628 151 948
+[11:53:49]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[11:53:49]___[common]:get new rect=0 0 0 0
+[11:53:49]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[11:53:49]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[11:53:49]___[common]:get variant load_url= load_url
+[11:53:49]___[common]:client local ip=192.168.0.20 port = 8329
+[11:53:49]___[common]:get new rect=0 0 0 0
+[11:53:49]___[common]:The socket which is named sever_client receives the new connection requestid= 1056 index= 0
+[11:53:50]___[common]:get new server_data=--form_hwnd=7144966
+[11:53:50]___[common]:get new rect=0 818 0 481
+[11:53:50]___[common]:get web_form hwnd=7144966  picwv hwnd=656922
+[11:53:50]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[11:53:58]___[common]:get new server_data=--Activate
+[11:54:04]___[common]:get new rect=104 926 137 618
+[11:54:04]___[common]:get new rect=104 962 137 618
+[11:54:04]___[common]:get new rect=104 1077 137 618
+[11:54:04]___[common]:get new rect=104 1199 137 618
+[11:54:04]___[common]:get new rect=104 1293 137 618
+[11:54:04]___[common]:get new rect=104 1329 137 618
+[11:54:04]___[common]:get new rect=104 1341 137 618
+[11:54:04]___[common]:get new rect=104 1359 137 618
+[11:54:04]___[common]:get new rect=104 1371 137 618
+[11:54:04]___[common]:get new rect=104 1377 137 618
+[11:54:04]___[common]:get new rect=104 1387 137 618
+[11:54:05]___[common]:get new rect=104 1399 137 618
+[11:54:05]___[common]:get new rect=104 1403 137 618
+[11:54:05]___[common]:get new rect=104 1402 137 618
+[11:54:05]___[common]:get new rect=104 1400 137 618
+[11:54:23]___[common]:get new rect=0 1547 104 872
+[11:54:24]___[common]:get new rect=104 1400 137 618

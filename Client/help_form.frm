@@ -2,12 +2,12 @@ VERSION 5.00
 Begin VB.Form help_form 
    BorderStyle     =   0  'None
    Caption         =   "help_form"
-   ClientHeight    =   5508
+   ClientHeight    =   5505
    ClientLeft      =   0
    ClientTop       =   0
    ClientWidth     =   9000
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5508
+   ScaleHeight     =   5505
    ScaleWidth      =   9000
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  '窗口缺省
@@ -24,6 +24,7 @@ Begin VB.Form help_form
          Height          =   3012
          Index           =   1
          Left            =   120
+         Locked          =   -1  'True
          MultiLine       =   -1  'True
          TabIndex        =   7
          Top             =   240
@@ -43,6 +44,7 @@ Begin VB.Form help_form
          Height          =   972
          Index           =   0
          Left            =   120
+         Locked          =   -1  'True
          MultiLine       =   -1  'True
          TabIndex        =   6
          Top             =   240
@@ -62,6 +64,7 @@ Begin VB.Form help_form
          Height          =   3012
          Index           =   2
          Left            =   120
+         Locked          =   -1  'True
          MultiLine       =   -1  'True
          TabIndex        =   8
          Top             =   240
@@ -73,7 +76,7 @@ Begin VB.Form help_form
       Caption         =   "帮助中心"
       BeginProperty Font 
          Name            =   "隶书"
-         Size            =   15.6
+         Size            =   15.75
          Charset         =   134
          Weight          =   700
          Underline       =   0   'False
@@ -92,7 +95,7 @@ Begin VB.Form help_form
       Caption         =   "×"
       BeginProperty Font 
          Name            =   "宋体"
-         Size            =   26.4
+         Size            =   26.25
          Charset         =   134
          Weight          =   700
          Underline       =   0   'False
@@ -136,8 +139,8 @@ End Sub
 Private Sub Form_Load()
     topmost Me.hwnd, True
     iofom_x(0).Text = get_text(App.Path + "\ts\info.txt")
-    iofom_x(1).Text = get_text(App.Path + "\ts\updata.txt")
-    iofom_x(2).Text = get_text(App.Path + "\ts\USE.txt")
+    iofom_x(2).Text = get_text(App.Path + "\ts\updata.txt")
+    iofom_x(1).Text = get_text(App.Path + "\ts\USE.txt")
 End Sub
 
 Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)

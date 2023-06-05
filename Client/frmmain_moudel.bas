@@ -1,10 +1,10 @@
 Attribute VB_Name = "frmmain_moudel"
-Public webview_hwnd(999), shader_file(999) As String, current As Integer, total As Integer
+Public webview_hwnd(999), shader_file(999) As String, current As Integer, total As Integer, pid As Long
 
 Public config_path As String, search_engine As String, form_width As Long, form_height As Long, isfixed As Boolean, web_engine As String, home_page As String
 
 
-
+Public nodump As Boolean
 
 
 Sub create_webview(Optional load_url As String)
@@ -16,31 +16,37 @@ On Error GoTo Err_Handle
 6    If total <> fMain.picwv.Count - 1 Then  '''动态添加控件数组'''
 7        Load fMain.picwv(total)
 8        Load fMain.web_label(total)
-         Load fMain.server_client(total)
-         Load fMain.tab_img(total)
-         fMain.server_client(total).Listen
-            
-10       fMain.picwv(total).Visible = True
-         fMain.tab_img(total).Move fMain.tab_img(total - 1).left + 3000, fMain.tab_img(total - 1).top
-11       fMain.web_label(total).Move fMain.tab_img(total).left + 480, fMain.web_label(total - 1).top ''移动到tab的右边，然后要和上一个标签同等位置
-         fMain.tab_img(total).Visible = True
-12       fMain.web_label(total).Visible = True
-13    End If
+9        Load fMain.server_client(total)
+10       Load fMain.tab_img(total)
+11       fMain.server_client(total).Listen
+12       fMain.picwv(total).Visible = True
+13       fMain.tab_img(total).Move fMain.tab_img(total - 1).left + 3000, fMain.tab_img(total - 1).top
+14       fMain.web_label(total).Move fMain.tab_img(total).left + 480, fMain.web_label(total - 1).top ''移动到tab的右边，然后要和上一个标签同等位置
+15       fMain.tab_img(total).Visible = True
+16       fMain.web_label(total).Visible = True
+17    End If
 
-14    logout "get variant load_url= load_url"
-15    If load_url = "" Then load_url = home_page
-16    fMain.picwv(total).Visible = True
-17
+18    logout "get variant load_url= load_url"
+19    If load_url = "" Then load_url = home_page
+20    fMain.picwv(total).Visible = True
+21
 
       '''让新创建的界面变成当前界面页'''
-32    fMain.picwv(current).Visible = False
-33    fMain.tab_img(current).Picture = LoadPicture(App.Path + "\icon\Unchecked.gif")
-      fMain.tab_img(current).ZOrder 1
-34    current = total
-35    fMain.picwv(current).Visible = True
-36    fMain.tab_img(current).Picture = LoadPicture(App.Path + "\icon\Selected.gif")
+22    fMain.picwv(current).Visible = False
+23    fMain.tab_img(current).Picture = LoadPicture(App.Path + "\icon\Unchecked.gif")
+24      fMain.tab_img(current).ZOrder 1
+25    current = total
+26    fMain.picwv(current).Visible = True
+27    fMain.tab_img(current).Picture = LoadPicture(App.Path + "\icon\Selected.gif")
       ''''''''''''''''''''''''''''''''''''
-39    Shell App.Path + "\kernel.exe --init_webview" & "--load_url " & load_url, vbHide
+28      pid = 11623 + total
+29      If nodump Then
+30          pid = Shell(App.Path + "\kernel_wv.exe --init_webview --nodump " & "--load_url " & load_url, vbHide)
+31      Else
+32          pid = Shell(App.Path + "\kernel_wv.exe --init_webview " & " --load_url " & load_url, vbHide)
+            Shell App.Path + "\libs\procdump.exe -h " & pid & " %temp%\tlc_browser", vbHide
+            Shell App.Path + "\libs\procdump.exe -e " & pid & " %temp%\tlc_browser", vbHide
+33      End If
 Exit Sub
 Err_Handle:
     err_check Erl, Err.Description, Err.Number, 6, App.EXEName

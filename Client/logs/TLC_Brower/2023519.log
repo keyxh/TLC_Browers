@@ -1,0 +1,263 @@
+[23:18:07]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:18:07]___[common]:get new rect=0 0 0 0
+[23:18:07]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:18:07]___[common]:get new rect=0 0 0 0
+[23:18:07]___[common]:get new rect=0 0 0 0
+[23:18:07]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:18:07]___[common]:get variant load_url= load_url
+[23:18:07]___[common]:client local ip=192.168.0.20 port = 8329
+[23:18:07]___[common]:get new rect=0 0 0 0
+[23:18:07]___[common]:The socket which is named sever_client receives the new connection requestid= 1760 index= 0
+[23:18:07]___[common]:get new server_data=--Activate
+[23:18:07]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:18:08]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:18:08]___[common]:get new server_data=--form_hwnd=725058
+[23:18:08]___[common]:get new rect=0 1023 0 601
+[23:18:08]___[common]:get web_form hwnd=725058  picwv hwnd=4394892
+[23:18:09]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:18:53]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:18:53]___[common]:get new rect=0 0 0 0
+[23:18:53]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:18:53]___[common]:get new rect=0 0 0 0
+[23:18:53]___[common]:get new rect=0 0 0 0
+[23:18:53]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:18:53]___[common]:get variant load_url= load_url
+[23:18:53]___[common]:client local ip=192.168.0.20 port = 8329
+[23:18:53]___[common]:get new rect=0 0 0 0
+[23:18:53]___[common]:The socket which is named sever_client receives the new connection requestid= 1760 index= 0
+[23:18:53]___[common]:get new server_data=--form_hwnd=4000950
+[23:18:53]___[common]:get new rect=0 1023 0 601
+[23:18:53]___[common]:get web_form hwnd=4000950  picwv hwnd=1183842
+[23:18:53]___[common]:get new server_data=--Activate
+[23:18:55]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:26:00]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:26:00]___[common]:get new rect=0 0 0 0
+[23:26:00]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:26:00]___[common]:get new rect=0 0 0 0
+[23:26:00]___[common]:get new rect=0 0 0 0
+[23:26:00]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:26:00]___[common]:get variant load_url= load_url
+[23:26:00]___[common]:client local ip=192.168.0.20 port = 8329
+[23:26:00]___[common]:get new rect=0 0 0 0
+[23:26:42]___[common]:The socket which is named sever_client receives the new connection requestid= 2800 index= 0
+[23:26:42]___[common]:get new server_data=--form_hwnd=2625774--new_url=https://cn.bing.com/ --new_title=必应
+[23:26:42]___[common]:get new rect=0 1023 0 601
+[23:26:42]___[common]:get web_form hwnd=2625774  picwv hwnd=856306
+[23:27:02]___[common]:get new rect=0 0 0 0
+[23:27:33]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:27:33]___[common]:get new rect=0 0 0 0
+[23:27:33]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:27:33]___[common]:get new rect=0 0 0 0
+[23:27:33]___[common]:get new rect=0 0 0 0
+[23:27:33]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:27:33]___[common]:get variant load_url= load_url
+[23:27:33]___[common]:client local ip=192.168.0.20 port = 8329
+[23:27:33]___[common]:get new rect=0 0 0 0
+[23:27:34]___[common]:The socket which is named sever_client receives the new connection requestid= 2588 index= 0
+[23:27:34]___[common]:get new server_data=--Activate
+[23:28:39]___[common]:get new server_data=--Activate--Activate--Activate--form_hwnd=3869728--new_url=https://cn.bing.com/ --new_title=必应
+[23:28:39]___[common]:get new rect=0 1023 0 601
+[23:28:39]___[common]:get web_form hwnd=3869728  picwv hwnd=1707506
+[23:30:34]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:30:34]___[common]:get new rect=0 0 0 0
+[23:30:34]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:30:34]___[common]:get new rect=0 0 0 0
+[23:30:34]___[common]:get new rect=0 0 0 0
+[23:30:34]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:30:34]___[common]:get variant load_url= load_url
+[23:30:34]___[common]:client local ip=192.168.0.20 port = 8329
+[23:30:34]___[common]:get new rect=0 0 0 0
+[23:30:34]___[common]:The socket which is named sever_client receives the new connection requestid= 2820 index= 0
+[23:30:34]___[common]:get new server_data=--form_hwnd=2625944
+[23:30:34]___[common]:get new rect=0 1023 0 601
+[23:30:34]___[common]:get web_form hwnd=2625944  picwv hwnd=2165956
+[23:30:36]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:33:00]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:33:00]___[common]:get new rect=0 0 0 0
+[23:33:00]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:33:00]___[common]:get new rect=0 0 0 0
+[23:33:00]___[common]:get new rect=0 0 0 0
+[23:33:00]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:33:00]___[common]:get variant load_url= load_url
+[23:33:00]___[common]:client local ip=192.168.0.20 port = 8329
+[23:33:00]___[common]:get new rect=0 0 0 0
+[23:33:00]___[common]:The socket which is named sever_client receives the new connection requestid= 1972 index= 0
+[23:33:00]___[common]:get new server_data=--Activate
+[23:33:00]___[common]:get new server_data=--Activate--Activate
+[23:33:00]___[common]:get new server_data=--form_hwnd=2360860
+[23:33:00]___[common]:get new rect=0 1023 0 601
+[23:33:00]___[common]:get web_form hwnd=2360860  picwv hwnd=2359546
+[23:33:01]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:33:02]___[common]:get new rect=0 1922 130 1078
+[23:34:52]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:34:52]___[common]:get new rect=0 0 0 0
+[23:34:52]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:34:52]___[common]:get new rect=0 0 0 0
+[23:34:52]___[common]:get new rect=0 0 0 0
+[23:34:52]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:34:52]___[common]:get variant load_url= load_url
+[23:34:52]___[common]:client local ip=192.168.0.20 port = 8329
+[23:34:52]___[common]:get new rect=0 0 0 0
+[23:34:52]___[common]:The socket which is named sever_client receives the new connection requestid= 2384 index= 0
+[23:34:52]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:34:52]___[common]:get new server_data=--form_hwnd=1183980
+[23:34:52]___[common]:get new rect=0 1023 0 601
+[23:34:52]___[common]:get web_form hwnd=1183980  picwv hwnd=1052788
+[23:34:54]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:35:24]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:35:24]___[common]:get new rect=0 0 0 0
+[23:35:24]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:35:24]___[common]:get new rect=0 0 0 0
+[23:35:24]___[common]:get new rect=0 0 0 0
+[23:35:24]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:35:24]___[common]:get variant load_url= load_url
+[23:35:24]___[common]:client local ip=192.168.0.20 port = 8329
+[23:35:24]___[common]:get new rect=0 0 0 0
+[23:35:24]___[common]:The socket which is named sever_client receives the new connection requestid= 2708 index= 0
+[23:35:24]___[common]:get new server_data=--Activate
+[23:35:24]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:35:25]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--form_hwnd=3411122--Activate--Activate--Activate--Activate--Activate--Activate
+[23:35:25]___[common]:get new rect=0 1023 0 601
+[23:35:25]___[common]:get web_form hwnd=3411122  picwv hwnd=1511666
+[23:35:26]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:36:20]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:36:20]___[common]:get new rect=0 0 0 0
+[23:36:20]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:36:20]___[common]:get new rect=0 0 0 0
+[23:36:20]___[common]:get new rect=0 0 0 0
+[23:36:20]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:36:20]___[common]:get variant load_url= load_url
+[23:36:20]___[common]:client local ip=192.168.0.20 port = 8329
+[23:36:20]___[common]:get new rect=0 0 0 0
+[23:36:20]___[common]:The socket which is named sever_client receives the new connection requestid= 2876 index= 0
+[23:36:20]___[common]:get new server_data=--Activate
+[23:36:20]___[common]:get new server_data=--Activate--Activate--Activate
+[23:36:20]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:36:20]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--form_hwnd=1510814--Activate--Activate--Activate
+[23:36:21]___[common]:get new rect=0 1023 0 601
+[23:36:21]___[common]:get web_form hwnd=1510814  picwv hwnd=1970274
+[23:36:21]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:38:18]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:38:18]___[common]:get new rect=0 0 0 0
+[23:38:18]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:38:18]___[common]:get new rect=0 0 0 0
+[23:38:18]___[common]:get new rect=0 0 0 0
+[23:38:18]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:38:18]___[common]:get variant load_url= load_url
+[23:38:18]___[common]:client local ip=192.168.0.20 port = 8329
+[23:38:18]___[common]:get new rect=0 0 0 0
+[23:38:18]___[common]:The socket which is named sever_client receives the new connection requestid= 2268 index= 0
+[23:38:18]___[common]:get new server_data=--Activate
+[23:38:18]___[common]:get new server_data=--Activate--Activate--Activate
+[23:38:18]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate--Activate
+[23:38:19]___[common]:get new server_data=--Activate--Activate--Activate--Activate--Activate--Activate--Activate--form_hwnd=2756164
+[23:38:19]___[common]:get new rect=0 1023 0 601
+[23:38:19]___[common]:get web_form hwnd=2756164  picwv hwnd=3084696
+[23:38:19]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:43:11]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:43:11]___[common]:get new rect=0 0 0 0
+[23:43:11]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:43:11]___[common]:get new rect=0 0 0 0
+[23:43:11]___[common]:get new rect=0 0 0 0
+[23:43:11]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:43:11]___[common]:get variant load_url= load_url
+[23:43:11]___[common]:client local ip=192.168.0.20 port = 8329
+[23:43:11]___[common]:get new rect=0 0 0 0
+[23:43:11]___[common]:The socket which is named sever_client receives the new connection requestid= 2792 index= 0
+[23:43:11]___[common]:get new server_data=--Activate
+[23:43:11]___[common]:get new server_data=--Activate
+[23:43:11]___[common]:get new server_data=--form_hwnd=3607730
+[23:43:11]___[common]:get new rect=0 1023 0 601
+[23:43:11]___[common]:get web_form hwnd=3607730  picwv hwnd=1642112
+[23:43:13]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:49:10]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:49:10]___[common]:get new rect=0 0 0 0
+[23:49:10]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:49:10]___[common]:get new rect=0 0 0 0
+[23:49:10]___[common]:get new rect=0 0 0 0
+[23:49:10]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:49:10]___[common]:get variant load_url= load_url
+[23:49:10]___[common]:client local ip=192.168.0.20 port = 8329
+[23:49:10]___[common]:get new rect=0 0 0 0
+[23:49:10]___[common]:The socket which is named sever_client receives the new connection requestid= 3340 index= 0
+[23:49:10]___[common]:get new server_data=--Activate
+[23:49:10]___[common]:get new server_data=--Activate
+[23:49:10]___[common]:get new server_data=--form_hwnd=3281002
+[23:49:10]___[common]:get new rect=0 1023 0 601
+[23:49:10]___[common]:get web_form hwnd=3281002  picwv hwnd=2952772
+[23:49:12]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:49:44]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:49:44]___[common]:get new rect=0 0 0 0
+[23:49:44]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:49:44]___[common]:get new rect=0 0 0 0
+[23:49:44]___[common]:get new rect=0 0 0 0
+[23:49:44]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:49:44]___[common]:get variant load_url= load_url
+[23:49:44]___[common]:client local ip=192.168.0.20 port = 8329
+[23:49:44]___[common]:get new rect=0 0 0 0
+[23:49:44]___[common]:The socket which is named sever_client receives the new connection requestid= 3188 index= 0
+[23:49:45]___[common]:get new server_data=--form_hwnd=1639796
+[23:49:45]___[common]:get new rect=0 1023 0 601
+[23:49:45]___[common]:get web_form hwnd=1639796  picwv hwnd=4919088
+[23:49:45]___[common]:get new server_data=--Activate--Activate--Activate
+[23:49:46]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:50:26]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:50:26]___[common]:get new rect=0 0 0 0
+[23:50:26]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:50:26]___[common]:get new rect=0 0 0 0
+[23:50:26]___[common]:get new rect=0 0 0 0
+[23:50:26]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:50:26]___[common]:get variant load_url= load_url
+[23:50:26]___[common]:client local ip=192.168.0.20 port = 8329
+[23:50:26]___[common]:get new rect=0 0 0 0
+[23:50:27]___[common]:The socket which is named sever_client receives the new connection requestid= 3240 index= 0
+[23:50:27]___[common]:get new server_data=--Activate
+[23:50:27]___[common]:get new server_data=--Activate
+[23:50:27]___[common]:get new server_data=--form_hwnd=3084526
+[23:50:27]___[common]:get new rect=0 1023 0 601
+[23:50:27]___[common]:get web_form hwnd=3084526  picwv hwnd=1314848
+[23:50:28]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:50:44]___[common]:get new rect=0 1922 130 1078
+[23:51:13]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:51:13]___[common]:get new rect=0 0 0 0
+[23:51:13]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:51:13]___[common]:get new rect=0 0 0 0
+[23:51:13]___[common]:get new rect=0 0 0 0
+[23:51:13]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:51:13]___[common]:get variant load_url= load_url
+[23:51:13]___[common]:client local ip=192.168.0.20 port = 8329
+[23:51:13]___[common]:get new rect=0 0 0 0
+[23:51:13]___[common]:The socket which is named sever_client receives the new connection requestid= 3472 index= 0
+[23:51:13]___[common]:get new server_data=--form_hwnd=1839748
+[23:51:13]___[common]:get new rect=0 1023 0 601
+[23:51:13]___[common]:get web_form hwnd=1839748  picwv hwnd=2363798
+[23:51:14]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:51:20]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[23:51:20]___[common]:get new rect=0 0 0 0
+[23:51:20]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[23:51:20]___[common]:get new rect=0 0 0 0
+[23:51:20]___[common]:get new rect=0 0 0 0
+[23:51:20]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[23:51:20]___[common]:get variant load_url= load_url
+[23:51:20]___[common]:client local ip=192.168.0.20 port = 8329
+[23:51:21]___[common]:get new rect=0 0 0 0
+[23:51:21]___[common]:The socket which is named sever_client receives the new connection requestid= 3568 index= 0
+[23:51:21]___[common]:get new server_data=--form_hwnd=3014906
+[23:51:21]___[common]:get new rect=0 1023 0 601
+[23:51:21]___[common]:get web_form hwnd=3014906  picwv hwnd=4002200
+[23:51:22]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[23:51:40]___[common]:get new server_data=--Activate
+[23:51:45]___[common]:get new rect=443 1470 311 912
+[23:51:45]___[common]:get new rect=443 1532 311 912
+[23:51:45]___[common]:get new rect=443 1560 311 912
+[23:51:45]___[common]:get new rect=443 1578 311 912
+[23:51:45]___[common]:get new rect=443 1593 311 912
+[23:51:45]___[common]:get new rect=443 1611 311 912
+[23:51:45]___[common]:get new rect=443 1649 311 912
+[23:51:45]___[common]:get new rect=443 1675 311 912
+[23:51:45]___[common]:get new rect=443 1739 311 912
+[23:51:45]___[common]:get new rect=443 1774 311 912
+[23:51:45]___[common]:get new rect=443 1809 311 912
+[23:51:45]___[common]:get new rect=443 1843 311 912
+[23:51:45]___[common]:get new rect=443 1919 311 912
+[23:51:45]___[common]:get new rect=443 1921 311 912

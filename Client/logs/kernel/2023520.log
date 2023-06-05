@@ -1,0 +1,56 @@
+[8:47:04]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[8:47:04]___[common]:Kernel Form Starting... hwnd=1053262 pic hwnd=856280
+[8:47:05]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=18744
+[8:47:05]___[common]:get variant which is named get_url= https://www.bing.com/
+[8:47:05]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[8:47:17]___[common]:GET NEW DATA=--load_urlhttps://www.baidu.com/s?wd=www.csdn.net
+[8:47:18]___[common]:Get a new page title of www.csdn.net_百度搜索 get new page url=https://www.baidu.com/s?wd=www.csdn.net
+[8:47:18]___[common]:Navigate to the new URI=www.baidu.com/link?url=ux8RsBP6Mf2dJIlkKDXmTdpysYTTuRzc7ATn6t61lmi&wd=&eqid=9cc4feee00143e360000000664681895
+[8:47:18]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[8:47:18]___[common]:Kernel Form Starting... hwnd=4001200 pic hwnd=4984390
+[8:47:18]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=18744
+[8:47:18]___[common]:get variant which is named get_url= www.baidu.com/link?url=ux8RsBP6Mf2dJIlkKDXmTdpysYTTuRzc7ATn6t61lmi&wd=&eqid=9cc4feee00143e360000000664681895
+[8:47:18]___[common]:new url=http://www.baidu.com/link?url=ux8RsBP6Mf2dJIlkKDXmTdpysYTTuRzc7ATn6t61lmi&wd=&eqid=9cc4feee00143e360000000664681895
+[8:47:20]___[common]:Get a new page title of CSDN - 专业开发者社区 get new page url=https://www.csdn.net/
+[8:47:24]___[common]:Navigate to the new URI=passport.csdn.net/v1/register/authorization?authType=qq&newAuth=true
+[8:47:24]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[8:47:24]___[common]:Kernel Form Starting... hwnd=5311412 pic hwnd=3215874
+[8:47:24]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=18744
+[8:47:24]___[common]:get variant which is named get_url= passport.csdn.net/v1/register/authorization?authType=qq&newAuth=true
+[8:47:24]___[common]:new url=http://passport.csdn.net/v1/register/authorization?authType=qq&newAuth=true
+[8:47:38]___[common]:Get a new page title of CSDN-专业IT技术社区-登录 get new page url=https://passport.csdn.net/middle?redirectUrl=https%3A%2F%2Fwww.csdn.net%2F
+[8:47:41]___[common]:GET NEW DATA=--reload
+[8:47:42]___[common]:Get a new page title of (2条消息) CSDN - 专业开发者社区 get new page url=https://www.csdn.net/
+[8:47:45]___[common]:Get a new page title of 私信-消息-CSDN get new page url=https://im.csdn.net/chat/
+[8:47:51]___[common]:Get a new page title of 评论和@-消息-CSDN get new page url=https://i.csdn.net/#/msg/index
+[8:47:53]___[common]:Navigate to the new URI=blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903
+[8:47:53]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[8:47:53]___[common]:Kernel Form Starting... hwnd=724936 pic hwnd=3278330
+[8:47:53]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=18744
+[8:47:53]___[common]:get variant which is named get_url= blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903
+[8:47:53]___[common]:new url=http://blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903
+[8:47:54]___[common]:Get a new page title of 在windows内使用virtualbox搭建安卓x86--以及所遇到的问题解决--3_温辉_xh的博客-CSDN博客 get new page url=https://blog.csdn.net/m0_60277871/article/details/130771928#comments_26568903
+[8:47:58]___[common]:Navigate to the new URI=bbs.csdn.net/topics/615418965
+[8:47:58]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[8:47:58]___[common]:Kernel Form Starting... hwnd=1773450 pic hwnd=1773458
+[8:47:58]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=18744
+[8:47:58]___[common]:get variant which is named get_url= bbs.csdn.net/topics/615418965
+[8:47:58]___[common]:new url=http://bbs.csdn.net/topics/615418965
+[8:48:20]___[common]:Get a new page title of CSDN每天值得看--2023-05-20-CSDN社区 get new page url=https://bbs.csdn.net/topics/615418965
+[11:50:45]___[common]:GET NEW DATA=--close
+[11:50:45]___[common]:The client sends a shutdown command
+[11:50:45]___[common]:GET NEW DATA=--close
+[11:50:45]___[common]:The client sends a shutdown command
+[11:50:45]___[common]:GET NEW DATA=--close
+[11:50:45]___[common]:The client sends a shutdown command
+[11:50:45]___[common]:GET NEW DATA=--close
+[11:50:45]___[common]:The client sends a shutdown command
+[11:50:45]___[common]:GET NEW DATA=--close
+[11:50:45]___[common]:The client sends a shutdown command
+[11:53:49]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[11:53:49]___[common]:Kernel Form Starting... hwnd=7144966 pic hwnd=1380068
+[11:53:50]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=37216
+[11:53:50]___[common]:get variant which is named get_url= https://www.bing.com/
+[11:53:50]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[11:55:33]___[common]:GET NEW DATA=--close
+[11:55:33]___[common]:The client sends a shutdown command

@@ -1,0 +1,44 @@
+[11:38:27]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[11:38:27]___[common]:get new rect=0 0 0 0
+[11:38:27]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[11:38:27]___[common]:get new rect=0 0 0 0
+[11:38:27]___[common]:get new rect=0 0 0 0
+[11:38:27]___[common]:get search_engine=https://www.baidu.com/q?wd=
+[11:38:27]___[common]:get variant load_url= load_url
+[11:38:27]___[common]:client local ip=10.1.136.73 port = 8329
+[11:38:27]___[common]:get new rect=0 0 0 0
+[11:38:28]___[common]:The socket which is named sever_client receives the new connection requestid= 2860 index= 0
+[11:38:28]___[common]:get new server_data=--Activate
+[11:38:29]___[common]:get new server_data=--form_hwnd=461396
+[11:38:29]___[common]:get new rect=0 1485 0 714
+[11:38:29]___[common]:get web_form hwnd=461396  picwv hwnd=4655664
+[11:38:30]___[common]:get new server_data=--new_url=https://www.baidu.com/ --new_title=百度一下，你就知道
+[11:38:54]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[11:38:54]___[common]:get new rect=0 0 0 0
+[11:38:54]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[11:38:54]___[common]:get new rect=0 0 0 0
+[11:38:54]___[common]:get new rect=0 0 0 0
+[11:38:54]___[common]:get search_engine=https://www.baidu.com/q?wd=
+[11:38:54]___[common]:get variant load_url= load_url
+[11:38:55]___[common]:client local ip=10.1.136.73 port = 8329
+[11:38:55]___[common]:get new rect=0 0 0 0
+[11:38:55]___[common]:The socket which is named sever_client receives the new connection requestid= 1448 index= 0
+[11:38:55]___[common]:get new server_data=--form_hwnd=329586
+[11:38:56]___[common]:get new rect=0 1485 0 714
+[11:38:56]___[common]:get web_form hwnd=329586  picwv hwnd=198758
+[11:38:56]___[common]:get new server_data=--new_url=https://www.baidu.com/ --new_title=百度一下，你就知道
+[11:39:12]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[11:39:12]___[common]:get new rect=0 0 0 0
+[11:39:12]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[11:39:12]___[common]:get new rect=0 0 0 0
+[11:39:12]___[common]:get new rect=0 0 0 0
+[11:39:12]___[common]:get search_engine=https://www.baidu.com/q?wd=
+[11:39:12]___[common]:get variant load_url= load_url
+[11:39:13]___[common]:client local ip=10.1.136.73 port = 8329
+[11:39:13]___[common]:get new rect=0 0 0 0
+[11:39:13]___[common]:The socket which is named sever_client receives the new connection requestid= 1552 index= 0
+[11:39:13]___[common]:get new server_data=--Activate
+[11:39:14]___[common]:get new server_data=--form_hwnd=657254
+[11:39:14]___[common]:get new rect=0 1485 0 714
+[11:39:14]___[common]:get web_form hwnd=657254  picwv hwnd=722640
+[11:39:15]___[common]:get new server_data=--new_url=https://www.baidu.com/ --new_title=百度一下，你就知道

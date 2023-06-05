@@ -1,0 +1,7 @@
+[12:15:45]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[12:15:45]___[common]:Kernel Form Starting... hwnd=591266 pic hwnd=1509884
+[12:15:46]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\114.0.1823.37 process id=29448
+[12:15:46]___[common]:get variant which is named get_url= https://www.bing.com/
+[12:15:47]___[common]:Get a new page title of ±ÿ”¶ get new page url=https://cn.bing.com/
+[12:34:14]___[common]:GET NEW DATA=--close
+[12:34:14]___[common]:The client sends a shutdown command

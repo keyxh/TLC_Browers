@@ -1,0 +1,21 @@
+[11:38:27]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[11:38:27]___[common]:Kernel Form Starting... hwnd=461396 pic hwnd=788158
+[11:38:29]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.57 process id=2632
+[11:38:29]___[common]:get variant which is named get_url= http://www.baidu.com
+[11:38:30]___[common]:Get a new page title of 百度一下，你就知道 get new page url=https://www.baidu.com/
+[11:38:36]___[common]:GET NEW DATA=--close
+[11:38:36]___[common]:The client sends a shutdown command
+[11:38:54]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[11:38:54]___[common]:Kernel Form Starting... hwnd=329586 pic hwnd=329588
+[11:38:55]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.57 process id=1232
+[11:38:55]___[common]:get variant which is named get_url= http://www.baidu.com
+[11:38:56]___[common]:Get a new page title of 百度一下，你就知道 get new page url=https://www.baidu.com/
+[11:39:04]___[common]:GET NEW DATA=--close
+[11:39:04]___[common]:The client sends a shutdown command
+[11:39:12]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[11:39:12]___[common]:Kernel Form Starting... hwnd=657254 pic hwnd=460662
+[11:39:14]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.57 process id=2028
+[11:39:14]___[common]:get variant which is named get_url= http://www.baidu.com
+[11:39:15]___[common]:Get a new page title of 百度一下，你就知道 get new page url=https://www.baidu.com/
+[11:39:33]___[common]:GET NEW DATA=--close
+[11:39:33]___[common]:The client sends a shutdown command

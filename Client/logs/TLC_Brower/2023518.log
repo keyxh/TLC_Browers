@@ -1,0 +1,539 @@
+[14:09:42]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:09:42]___[common]:get new rect=0 0 0 0
+[14:09:42]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:09:42]___[common]:get new rect=0 0 0 0
+[14:09:42]___[common]:get new rect=0 0 0 0
+[14:09:42]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:09:42]___[common]:get variant load_url= load_url
+[14:09:42]___[common]:client local ip=10.1.136.73 port = 8329
+[14:09:42]___[common]:get new rect=0 0 0 0
+[14:09:42]___[common]:The socket which is named sever_client receives the new connection requestid= 1932 index= 0
+[14:09:42]___[common]:get new server_data=--Activate
+[14:09:42]___[common]:get new server_data=--Activate
+[14:09:42]___[common]:get new server_data=--form_hwnd=788808
+[14:09:42]___[common]:get new rect=0 1485 0 714
+[14:09:42]___[common]:get web_form hwnd=788808  picwv hwnd=1640342
+[14:09:44]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:10:24]___[common]:get new server_data=--new_url=https://cn.bing.com/search?q=csdn --new_title=csdn - 搜索
+[14:10:24]___[common]:get new server_data=--Activate
+[14:10:24]___[common]:get new server_data=--create_newpage=www.csdn.net/
+[14:10:24]___[common]:get variant load_url= load_url
+[14:10:25]___[common]:The socket which is named sever_client receives the new connection requestid= 1940 index= 1
+[14:10:25]___[common]:get new server_data=--form_hwnd=329684
+[14:10:25]___[common]:get new rect=355 1840 249 963
+[14:10:25]___[common]:get new rect=0 1485 0 714
+[14:10:25]___[common]:get web_form hwnd=329684  picwv hwnd=3081204
+[14:10:25]___[common]:get new server_data=--Activate--Activate
+[14:10:28]___[common]:get new server_data=--Activate
+[14:10:29]___[common]:get new server_data=--Activate
+[14:10:30]___[common]:get new server_data=--new_url=https://www.csdn.net/ --new_title=CSDN - 专业开发者社区
+[14:10:30]___[common]:get new server_data=--create_newpage=passport.csdn.net/v1/register/authorization?authType=qq&newAuth=true
+[14:10:30]___[common]:get variant load_url= load_url
+[14:10:31]___[common]:The socket which is named sever_client receives the new connection requestid= 1960 index= 2
+[14:10:31]___[common]:get new server_data=--form_hwnd=525560
+[14:10:31]___[common]:get new rect=355 1840 249 963
+[14:10:31]___[common]:get new rect=355 1840 249 963
+[14:10:31]___[common]:get new rect=0 1485 0 714
+[14:10:31]___[common]:get web_form hwnd=525560  picwv hwnd=1246786
+[14:10:34]___[common]:get new server_data=--new_url=https://graph.qq.com/oauth2.0/show?which=Login&display=pc&client_id=100270989&response_type=code&redirect_uri=https%3A%2F%2Fpassport.csdn.net%2Faccount%2Flogin%3FpcAuthType%3Dqq%26newAuth%3Dtrue%26state%3Dtest --new_title=QQ帐号安全登录
+[14:10:47]___[common]:get new server_data=--Activate
+[14:10:52]___[common]:get new server_data=--create_newpage=passport.csdn.net/v1/register/authorization?authType=baidu
+[14:10:52]___[common]:get variant load_url= load_url
+[14:10:52]___[common]:The socket which is named sever_client receives the new connection requestid= 1984 index= 3
+[14:10:52]___[common]:get new server_data=--form_hwnd=329488
+[14:10:52]___[common]:get new rect=355 1840 249 963
+[14:10:52]___[common]:get new rect=355 1840 249 963
+[14:10:52]___[common]:get new rect=355 1840 249 963
+[14:10:52]___[common]:get new rect=0 1485 0 714
+[14:10:52]___[common]:get web_form hwnd=329488  picwv hwnd=264588
+[14:10:54]___[common]:get new server_data=--new_url=https://openapi.baidu.com/oauth/2.0/authorize?client_id=cePqkUpKCBrcnQtARTNPxxQG&response_type=code&redirect_uri=https%3A%2F%2Fpassport.csdn.net%2Faccount%2Flogin%3Foauth_provider%3DBaiduProvider%26pcAuthType%3Dbaidu%26newAuth%3Dfalse --new_title=与百度连接
+[14:11:06]___[common]:get new server_data=--Activate--Activate
+[14:11:10]___[common]:get new server_data=--create_newpage=passport.csdn.net/v1/register/authorization?authType=sinat&newAuth=true
+[14:11:10]___[common]:get variant load_url= load_url
+[14:11:10]___[common]:The socket which is named sever_client receives the new connection requestid= 1972 index= 4
+[14:11:10]___[common]:get new server_data=--form_hwnd=264370
+[14:11:10]___[common]:get new rect=431 1916 329 1043
+[14:11:10]___[common]:get new rect=431 1916 329 1043
+[14:11:10]___[common]:get new rect=431 1916 329 1043
+[14:11:10]___[common]:get new rect=431 1916 329 1043
+[14:11:10]___[common]:get new rect=0 1485 0 714
+[14:11:10]___[common]:get web_form hwnd=264370  picwv hwnd=198436
+[14:11:11]___[common]:get new server_data=--new_url=https://api.weibo.com/oauth2/authorize?client_id=2601122390&response_type=code&redirect_uri=https%3A%2F%2Fpassport.csdn.net%2Faccount%2Flogin%3FpcAuthType%3Dsinat%26newAuth%3Dtrue### --new_title=网站连接 - CSDN.NET
+[14:11:17]___[common]:get new server_data=--Activate--Activate
+[14:11:37]___[common]:get new rect=266 1751 141 856
+[14:11:37]___[common]:get new rect=266 1751 141 856
+[14:11:52]___[common]:get new rect=266 1751 141 856
+[14:11:52]___[common]:get new rect=266 1751 141 856
+[14:11:56]___[common]:get new server_data=--Activate
+[14:11:59]___[common]:get new rect=266 1751 141 856
+[14:11:59]___[common]:get new rect=266 1751 141 856
+[14:14:47]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:14:47]___[common]:get new rect=0 0 0 0
+[14:14:47]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:14:47]___[common]:get new rect=0 0 0 0
+[14:14:47]___[common]:get new rect=0 0 0 0
+[14:14:47]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:14:47]___[common]:get variant load_url= load_url
+[14:14:47]___[common]:client local ip=10.1.136.73 port = 8329
+[14:14:47]___[common]:get new rect=0 0 0 0
+[14:14:47]___[common]:The socket which is named sever_client receives the new connection requestid= 1916 index= 0
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:47]___[common]:get new server_data=--Activate
+[14:14:48]___[common]:get new server_data=--Activate
+[14:14:48]___[common]:get new server_data=--Activate
+[14:14:48]___[common]:get new server_data=--Activate
+[14:14:48]___[common]:get new server_data=--Activate
+[14:14:48]___[common]:get new server_data=--form_hwnd=1377528
+[14:14:48]___[common]:get new rect=0 1485 0 714
+[14:14:48]___[common]:get web_form hwnd=1377528  picwv hwnd=3212276
+[14:14:48]___[common]:get new server_data=--Activate--Activate
+[14:14:49]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:15:06]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:15:06]___[common]:get new rect=0 0 0 0
+[14:15:06]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:15:06]___[common]:get new rect=0 0 0 0
+[14:15:06]___[common]:get new rect=0 0 0 0
+[14:15:06]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:15:06]___[common]:get variant load_url= load_url
+[14:15:06]___[common]:client local ip=10.1.136.73 port = 8329
+[14:15:06]___[common]:get new rect=0 0 0 0
+[14:15:06]___[common]:The socket which is named sever_client receives the new connection requestid= 1800 index= 0
+[14:15:07]___[common]:get new server_data=--form_hwnd=6226904
+[14:15:07]___[common]:get new rect=0 1485 0 714
+[14:15:07]___[common]:get web_form hwnd=6226904  picwv hwnd=1640590
+[14:15:08]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:19:18]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:19:18]___[common]:get new rect=0 0 0 0
+[14:19:18]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:19:18]___[common]:get new rect=0 0 0 0
+[14:19:18]___[common]:get new rect=0 0 0 0
+[14:19:18]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:19:18]___[common]:get variant load_url= load_url
+[14:19:18]___[common]:client local ip=10.1.136.73 port = 8329
+[14:19:18]___[common]:get new rect=0 0 0 0
+[14:19:19]___[common]:The socket which is named sever_client receives the new connection requestid= 2436 index= 0
+[14:19:19]___[common]:get new server_data=--form_hwnd=2492110
+[14:19:19]___[common]:get new rect=0 1485 0 714
+[14:19:19]___[common]:get web_form hwnd=2492110  picwv hwnd=2426038
+[14:19:20]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:19:25]___[common]:get new server_data=--Activate
+[14:19:54]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:19:54]___[common]:get new rect=0 0 0 0
+[14:19:54]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:19:54]___[common]:get new rect=0 0 0 0
+[14:19:54]___[common]:get new rect=0 0 0 0
+[14:19:54]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:19:54]___[common]:get variant load_url= load_url
+[14:19:54]___[common]:client local ip=10.1.136.73 port = 8329
+[14:19:54]___[common]:get new rect=0 0 0 0
+[14:19:55]___[common]:The socket which is named sever_client receives the new connection requestid= 2408 index= 0
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--Activate
+[14:19:55]___[common]:get new server_data=--form_hwnd=1247462
+[14:19:55]___[common]:get new rect=0 1485 0 714
+[14:19:55]___[common]:get web_form hwnd=1247462  picwv hwnd=2033806
+[14:19:55]___[common]:get new server_data=--Activate--Activate
+[14:19:56]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:19:59]___[common]:get new server_data=--Activate
+[14:37:09]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:37:09]___[common]:get new rect=0 0 0 0
+[14:37:09]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:37:09]___[common]:get new rect=0 0 0 0
+[14:37:09]___[common]:get new rect=0 0 0 0
+[14:37:09]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:37:09]___[common]:get variant load_url= load_url
+[14:37:09]___[common]:client local ip=10.1.136.73 port = 8329
+[14:37:09]___[common]:get new rect=0 0 0 0
+[14:37:09]___[common]:The socket which is named sever_client receives the new connection requestid= 1640 index= 0
+[14:37:09]___[common]:get new server_data=--Activate
+[14:37:09]___[common]:get new server_data=--form_hwnd=395396
+[14:37:09]___[common]:get new rect=0 1485 0 714
+[14:37:09]___[common]:get web_form hwnd=395396  picwv hwnd=657290
+[14:37:10]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:37:10]___[common]:get new server_data=--Activate
+[14:37:13]___[common]:get new server_data=--Activate
+[14:37:15]___[common]:get new server_data=--Activate
+[14:43:52]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:43:52]___[common]:get new rect=0 0 0 0
+[14:43:52]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:43:52]___[common]:get new rect=0 0 0 0
+[14:43:52]___[common]:get new rect=0 0 0 0
+[14:43:52]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:43:52]___[common]:get variant load_url= load_url
+[14:43:52]___[common]:client local ip=10.1.136.73 port = 8329
+[14:43:52]___[common]:get new rect=0 0 0 0
+[14:43:52]___[common]:The socket which is named sever_client receives the new connection requestid= 1072 index= 0
+[14:43:52]___[common]:get new server_data=--form_hwnd=3999662
+[14:43:52]___[common]:get new rect=0 1485 0 714
+[14:43:52]___[common]:get web_form hwnd=3999662  picwv hwnd=4000130
+[14:43:53]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[14:44:02]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[14:44:02]___[common]:get new rect=0 0 0 0
+[14:44:02]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[14:44:02]___[common]:get new rect=0 0 0 0
+[14:44:02]___[common]:get new rect=0 0 0 0
+[14:44:02]___[common]:get search_engine=https://cn.bing.com/search?q=
+[14:44:02]___[common]:get variant load_url= load_url
+[14:44:02]___[common]:client local ip=10.1.136.73 port = 8329
+[14:44:02]___[common]:get new rect=0 0 0 0
+[14:44:02]___[common]:The socket which is named sever_client receives the new connection requestid= 1636 index= 0
+[14:44:02]___[common]:get new server_data=--Activate
+[14:44:02]___[common]:get new server_data=--Activate
+[14:44:02]___[common]:get new server_data=--form_hwnd=6620976
+[14:44:02]___[common]:get new rect=0 1485 0 714
+[14:44:02]___[common]:get web_form hwnd=6620976  picwv hwnd=1508778
+[14:44:03]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:40:32]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:40:32]___[common]:get new rect=0 0 0 0
+[17:40:32]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:40:32]___[common]:get new rect=0 0 0 0
+[17:40:32]___[common]:get new rect=0 0 0 0
+[17:40:32]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:40:32]___[common]:get variant load_url= load_url
+[17:40:32]___[common]:client local ip=192.168.100.59 port = 8329
+[17:40:32]___[common]:get new rect=0 0 0 0
+[17:40:32]___[common]:The socket which is named sever_client receives the new connection requestid= 2088 index= 0
+[17:40:32]___[common]:get new server_data=--Activate
+[17:40:33]___[common]:get new server_data=--form_hwnd=67058
+[17:40:33]___[common]:get new rect=0 1485 0 714
+[17:40:33]___[common]:get web_form hwnd=67058  picwv hwnd=67042
+[17:40:34]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:40:35]___[common]:get new rect=0 1923 104 1080
+[17:40:37]___[common]:get new server_data=--Activate
+[17:40:38]___[common]:get new server_data=--new_url=https://cn.bing.com/images/trending?form=Z9LH --new_title=Bing images
+[17:40:41]___[common]:get new server_data=--new_url=https://cn.bing.com/images/trending?FORM=BESBTB&ensearch=1 --new_title=Bing images
+[17:40:42]___[common]:get new server_data=--new_url=https://cn.bing.com/images/trending?form=Z9LH --new_title=Bing images
+[17:48:50]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:48:50]___[common]:get new rect=0 0 0 0
+[17:48:50]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:48:50]___[common]:get new rect=0 0 0 0
+[17:48:50]___[common]:get new rect=0 0 0 0
+[17:48:50]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:48:50]___[common]:get variant load_url= load_url
+[17:48:50]___[common]:client local ip=192.168.100.59 port = 8329
+[17:48:50]___[common]:get new rect=0 0 0 0
+[17:48:50]___[common]:The socket which is named sever_client receives the new connection requestid= 3472 index= 0
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:50]___[common]:get new server_data=--Activate
+[17:48:51]___[common]:get new server_data=--form_hwnd=396708
+[17:48:51]___[common]:get new rect=0 1485 0 714
+[17:48:51]___[common]:get web_form hwnd=396708  picwv hwnd=198114
+[17:48:52]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:51:26]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:51:26]___[common]:get new rect=0 0 0 0
+[17:51:26]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:51:26]___[common]:get new rect=0 0 0 0
+[17:51:26]___[common]:get new rect=0 0 0 0
+[17:51:26]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:51:26]___[common]:get variant load_url= load_url
+[17:51:26]___[common]:client local ip=192.168.100.59 port = 8329
+[17:51:26]___[common]:get new rect=0 0 0 0
+[17:51:27]___[common]:The socket which is named sever_client receives the new connection requestid= 3412 index= 0
+[17:51:27]___[common]:get new server_data=--form_hwnd=724398
+[17:51:27]___[common]:get new rect=0 1485 0 714
+[17:51:27]___[common]:get web_form hwnd=724398  picwv hwnd=527786
+[17:51:28]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:51:45]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:51:45]___[common]:get new rect=0 0 0 0
+[17:51:45]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:51:45]___[common]:get new rect=0 0 0 0
+[17:51:45]___[common]:get new rect=0 0 0 0
+[17:51:45]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:51:45]___[common]:get variant load_url= load_url
+[17:51:45]___[common]:client local ip=192.168.100.59 port = 8329
+[17:51:45]___[common]:get new rect=0 0 0 0
+[17:51:46]___[common]:The socket which is named sever_client receives the new connection requestid= 3768 index= 0
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--Activate
+[17:51:46]___[common]:get new server_data=--form_hwnd=462006
+[17:51:46]___[common]:get new rect=0 1485 0 714
+[17:51:46]___[common]:get web_form hwnd=462006  picwv hwnd=527762
+[17:51:47]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:52:15]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:52:15]___[common]:get new rect=0 0 0 0
+[17:52:15]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:52:15]___[common]:get new rect=0 0 0 0
+[17:52:15]___[common]:get new rect=0 0 0 0
+[17:52:15]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:52:15]___[common]:get variant load_url= load_url
+[17:52:15]___[common]:client local ip=192.168.100.59 port = 8329
+[17:52:15]___[common]:get new rect=0 0 0 0
+[17:52:15]___[common]:The socket which is named sever_client receives the new connection requestid= 3736 index= 0
+[17:52:15]___[common]:get new server_data=--Activate
+[17:52:15]___[common]:get new server_data=--Activate
+[17:52:15]___[common]:get new server_data=--form_hwnd=527548
+[17:52:15]___[common]:get new rect=0 1485 0 714
+[17:52:15]___[common]:get web_form hwnd=527548  picwv hwnd=724148
+[17:52:17]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:53:21]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:53:21]___[common]:get new rect=0 0 0 0
+[17:53:21]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:53:21]___[common]:get new rect=0 0 0 0
+[17:53:21]___[common]:get new rect=0 0 0 0
+[17:53:21]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:53:21]___[common]:get variant load_url= load_url
+[17:53:21]___[common]:client local ip=192.168.100.59 port = 8329
+[17:53:21]___[common]:get new rect=0 0 0 0
+[17:53:22]___[common]:The socket which is named sever_client receives the new connection requestid= 3116 index= 0
+[17:53:22]___[common]:get new server_data=--form_hwnd=197114
+[17:53:22]___[common]:get new rect=0 1485 0 714
+[17:53:22]___[common]:get web_form hwnd=197114  picwv hwnd=593362
+[17:53:23]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:53:41]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:53:41]___[common]:get new rect=0 0 0 0
+[17:53:41]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:53:41]___[common]:get new rect=0 0 0 0
+[17:53:41]___[common]:get new rect=0 0 0 0
+[17:53:41]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:53:41]___[common]:get variant load_url= load_url
+[17:53:41]___[common]:client local ip=192.168.100.59 port = 8329
+[17:53:41]___[common]:get new rect=0 0 0 0
+[17:53:41]___[common]:The socket which is named sever_client receives the new connection requestid= 3812 index= 0
+[17:53:41]___[common]:get new server_data=--form_hwnd=1508866
+[17:53:41]___[common]:get new rect=0 1485 0 714
+[17:53:41]___[common]:get web_form hwnd=1508866  picwv hwnd=724464
+[17:53:41]___[common]:get new server_data=--Activate
+[17:53:43]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:54:22]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:54:22]___[common]:get new rect=0 0 0 0
+[17:54:22]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:54:22]___[common]:get new rect=0 0 0 0
+[17:54:22]___[common]:get new rect=0 0 0 0
+[17:54:22]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:54:22]___[common]:get variant load_url= load_url
+[17:54:22]___[common]:client local ip=192.168.100.59 port = 8329
+[17:54:22]___[common]:get new rect=0 0 0 0
+[17:54:22]___[common]:The socket which is named sever_client receives the new connection requestid= 3900 index= 0
+[17:54:22]___[common]:get new server_data=--Activate
+[17:54:22]___[common]:get new server_data=--Activate
+[17:54:22]___[common]:get new server_data=--form_hwnd=724128
+[17:54:22]___[common]:get new rect=0 1485 0 714
+[17:54:22]___[common]:get web_form hwnd=724128  picwv hwnd=855536
+[17:54:23]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:54:50]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:54:50]___[common]:get new rect=0 0 0 0
+[17:54:50]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:54:50]___[common]:get new rect=0 0 0 0
+[17:54:50]___[common]:get new rect=0 0 0 0
+[17:54:50]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:54:50]___[common]:get variant load_url= load_url
+[17:54:50]___[common]:client local ip=192.168.100.59 port = 8329
+[17:54:50]___[common]:get new rect=0 0 0 0
+[17:54:50]___[common]:The socket which is named sever_client receives the new connection requestid= 2924 index= 0
+[17:54:50]___[common]:get new server_data=--Activate
+[17:54:50]___[common]:get new server_data=--form_hwnd=524794
+[17:54:50]___[common]:get new rect=0 1485 0 714
+[17:54:50]___[common]:get web_form hwnd=524794  picwv hwnd=921052
+[17:54:51]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:57:30]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:57:30]___[common]:get new rect=0 0 0 0
+[17:57:30]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:57:30]___[common]:get new rect=0 0 0 0
+[17:57:30]___[common]:get new rect=0 0 0 0
+[17:57:30]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:57:30]___[common]:get variant load_url= load_url
+[17:57:30]___[common]:client local ip=192.168.100.59 port = 8329
+[17:57:30]___[common]:get new rect=0 0 0 0
+[17:57:30]___[common]:The socket which is named sever_client receives the new connection requestid= 3372 index= 0
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--Activate
+[17:57:30]___[common]:get new server_data=--form_hwnd=1051812
+[17:57:30]___[common]:get new rect=0 1485 0 714
+[17:57:30]___[common]:get web_form hwnd=1051812  picwv hwnd=789654
+[17:57:32]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:59:19]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:59:19]___[common]:get new rect=0 0 0 0
+[17:59:19]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:59:19]___[common]:get new rect=0 0 0 0
+[17:59:19]___[common]:get new rect=0 0 0 0
+[17:59:19]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:59:19]___[common]:get variant load_url= load_url
+[17:59:19]___[common]:client local ip=192.168.100.59 port = 8329
+[17:59:19]___[common]:get new rect=0 0 0 0
+[17:59:19]___[common]:The socket which is named sever_client receives the new connection requestid= 3820 index= 0
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--Activate
+[17:59:19]___[common]:get new server_data=--form_hwnd=1445382
+[17:59:19]___[common]:get new rect=0 1485 0 714
+[17:59:19]___[common]:get web_form hwnd=1445382  picwv hwnd=920722
+[17:59:20]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:59:43]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:59:43]___[common]:get new rect=0 0 0 0
+[17:59:43]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:59:43]___[common]:get new rect=0 0 0 0
+[17:59:43]___[common]:get new rect=0 0 0 0
+[17:59:43]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:59:43]___[common]:get variant load_url= load_url
+[17:59:43]___[common]:client local ip=192.168.100.59 port = 8329
+[17:59:43]___[common]:get new rect=0 0 0 0
+[17:59:43]___[common]:The socket which is named sever_client receives the new connection requestid= 3580 index= 0
+[17:59:43]___[common]:get new server_data=--form_hwnd=855196
+[17:59:44]___[common]:get new rect=0 1485 0 714
+[17:59:44]___[common]:get web_form hwnd=855196  picwv hwnd=986288
+[17:59:45]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[17:59:55]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[17:59:55]___[common]:get new rect=0 0 0 0
+[17:59:55]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[17:59:55]___[common]:get new rect=0 0 0 0
+[17:59:55]___[common]:get new rect=0 0 0 0
+[17:59:55]___[common]:get search_engine=https://cn.bing.com/search?q=
+[17:59:55]___[common]:get variant load_url= load_url
+[17:59:55]___[common]:client local ip=192.168.100.59 port = 8329
+[17:59:55]___[common]:get new rect=0 0 0 0
+[17:59:55]___[common]:The socket which is named sever_client receives the new connection requestid= 2600 index= 0
+[17:59:55]___[common]:get new server_data=--Activate
+[17:59:55]___[common]:get new server_data=--form_hwnd=1182888
+[17:59:55]___[common]:get new rect=0 1485 0 714
+[17:59:55]___[common]:get web_form hwnd=1182888  picwv hwnd=1051790
+[17:59:56]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:00:17]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:00:17]___[common]:get new rect=0 0 0 0
+[18:00:17]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:00:17]___[common]:get new rect=0 0 0 0
+[18:00:17]___[common]:get new rect=0 0 0 0
+[18:00:17]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:00:17]___[common]:get variant load_url= load_url
+[18:00:17]___[common]:client local ip=192.168.100.59 port = 8329
+[18:00:17]___[common]:get new rect=0 0 0 0
+[18:00:17]___[common]:The socket which is named sever_client receives the new connection requestid= 4040 index= 0
+[18:00:17]___[common]:get new server_data=--Activate
+[18:00:17]___[common]:get new server_data=--form_hwnd=1379486
+[18:00:17]___[common]:get new rect=0 1485 0 714
+[18:00:17]___[common]:get web_form hwnd=1379486  picwv hwnd=1182850
+[18:00:18]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:17:31]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:17:31]___[common]:get new rect=0 0 0 0
+[18:17:31]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:17:31]___[common]:get new rect=0 0 0 0
+[18:17:31]___[common]:get new rect=0 0 0 0
+[18:17:31]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:17:31]___[common]:get variant load_url= load_url
+[18:17:32]___[common]:client local ip=192.168.100.59 port = 8329
+[18:17:32]___[common]:get new rect=0 0 0 0
+[18:17:32]___[common]:The socket which is named sever_client receives the new connection requestid= 3036 index= 0
+[18:17:32]___[common]:get new server_data=--Activate
+[18:17:32]___[common]:get new server_data=--Activate
+[18:17:32]___[common]:get new server_data=--form_hwnd=2033894
+[18:17:32]___[common]:get new rect=0 1485 0 714
+[18:17:32]___[common]:get web_form hwnd=2033894  picwv hwnd=1314308
+[18:17:33]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:20:34]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:20:34]___[common]:get new rect=0 0 0 0
+[18:20:34]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:20:34]___[common]:get new rect=0 0 0 0
+[18:20:34]___[common]:get new rect=0 0 0 0
+[18:20:34]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:20:34]___[common]:get variant load_url= load_url
+[18:20:34]___[common]:client local ip=192.168.100.59 port = 8329
+[18:20:34]___[common]:get new rect=0 0 0 0
+[18:20:35]___[common]:The socket which is named sever_client receives the new connection requestid= 3304 index= 0
+[18:20:35]___[common]:get new server_data=--Activate
+[18:20:35]___[common]:get new server_data=--form_hwnd=1904106
+[18:20:35]___[common]:get new rect=0 1485 0 714
+[18:20:35]___[common]:get web_form hwnd=1904106  picwv hwnd=1445380
+[18:20:36]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:21:08]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:21:08]___[common]:get new rect=0 0 0 0
+[18:21:08]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:21:08]___[common]:get new rect=0 0 0 0
+[18:21:08]___[common]:get new rect=0 0 0 0
+[18:21:08]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:21:08]___[common]:get variant load_url= load_url
+[18:21:08]___[common]:client local ip=192.168.100.59 port = 8329
+[18:21:08]___[common]:get new rect=0 0 0 0
+[18:21:08]___[common]:The socket which is named sever_client receives the new connection requestid= 3052 index= 0
+[18:21:08]___[common]:get new server_data=--Activate
+[18:21:08]___[common]:get new server_data=--Activate
+[18:21:08]___[common]:get new server_data=--Activate
+[18:21:08]___[common]:get new server_data=--Activate--Activate
+[18:21:09]___[common]:get new server_data=--Activate--Activate
+[18:21:09]___[common]:get new server_data=--Activate--Activate--Activate
+[18:21:09]___[common]:get new server_data=--Activate--Activate
+[18:21:09]___[common]:get new server_data=--form_hwnd=395046--Activate
+[18:21:09]___[common]:get new rect=0 1485 0 714
+[18:21:09]___[common]:get web_form hwnd=395046  picwv hwnd=1576452
+[18:21:09]___[common]:get new server_data=--Activate--Activate
+[18:21:10]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:22:06]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:22:06]___[common]:get new rect=0 0 0 0
+[18:22:06]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:22:06]___[common]:get new rect=0 0 0 0
+[18:22:06]___[common]:get new rect=0 0 0 0
+[18:22:06]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:22:06]___[common]:get variant load_url= load_url
+[18:22:07]___[common]:client local ip=192.168.100.59 port = 8329
+[18:22:07]___[common]:get new rect=0 0 0 0
+[18:22:07]___[common]:The socket which is named sever_client receives the new connection requestid= 3724 index= 0
+[18:22:07]___[common]:get new server_data=--Activate
+[18:22:07]___[common]:get new server_data=--Activate--Activate
+[18:22:07]___[common]:get new server_data=--Activate
+[18:22:07]___[common]:get new server_data=--form_hwnd=395020
+[18:22:07]___[common]:get new rect=0 1485 0 714
+[18:22:07]___[common]:get web_form hwnd=395020  picwv hwnd=1707524
+[18:22:08]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:22:18]___[common]:get new server_data=--Activate
+[18:22:24]___[common]:get new server_data=--new_url=https://cn.bing.com/images/trending?form=Z9LH --new_title=Bing images
+[18:22:38]___[common]:get variant load_url= load_url
+[18:22:38]___[common]:The socket which is named sever_client receives the new connection requestid= 2440 index= 1
+[18:22:38]___[common]:get new server_data=--form_hwnd=1707372
+[18:22:38]___[common]:get new rect=355 1840 249 963
+[18:22:38]___[common]:get new rect=0 1485 0 714
+[18:22:38]___[common]:get web_form hwnd=1707372  picwv hwnd=657146
+[18:22:39]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:23:22]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[18:23:22]___[common]:get new rect=0 0 0 0
+[18:23:22]___[common]:get appdata=C:\Users\FJFZ\AppData\Roaming\tlc_web
+[18:23:22]___[common]:get new rect=0 0 0 0
+[18:23:22]___[common]:get new rect=0 0 0 0
+[18:23:22]___[common]:get search_engine=https://cn.bing.com/search?q=
+[18:23:22]___[common]:get variant load_url= load_url
+[18:23:22]___[common]:client local ip=192.168.100.59 port = 8329
+[18:23:22]___[common]:get new rect=0 0 0 0
+[18:23:22]___[common]:The socket which is named sever_client receives the new connection requestid= 3604 index= 0
+[18:23:22]___[common]:get new server_data=--form_hwnd=4721736
+[18:23:22]___[common]:get new rect=0 1485 0 714
+[18:23:22]___[common]:get web_form hwnd=4721736  picwv hwnd=460554
+[18:23:23]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=必应
+[18:23:30]___[common]:get new server_data=--Activate

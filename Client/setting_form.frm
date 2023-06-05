@@ -2,12 +2,12 @@ VERSION 5.00
 Begin VB.Form setting_form 
    BorderStyle     =   0  'None
    Caption         =   "setting_form"
-   ClientHeight    =   5988
+   ClientHeight    =   5985
    ClientLeft      =   0
    ClientTop       =   0
    ClientWidth     =   9840
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5988
+   ScaleHeight     =   5985
    ScaleWidth      =   9840
    ShowInTaskbar   =   0   'False
    StartUpPosition =   3  '窗口缺省
@@ -15,7 +15,7 @@ Begin VB.Form setting_form
       Caption         =   "其他设置"
       BeginProperty Font 
          Name            =   "宋体"
-         Size            =   16.2
+         Size            =   16.5
          Charset         =   134
          Weight          =   400
          Underline       =   0   'False
@@ -70,7 +70,7 @@ Begin VB.Form setting_form
       Caption         =   "窗体设置"
       BeginProperty Font 
          Name            =   "宋体"
-         Size            =   16.2
+         Size            =   16.5
          Charset         =   134
          Weight          =   400
          Underline       =   0   'False
@@ -130,7 +130,7 @@ Begin VB.Form setting_form
       Caption         =   "引擎设置"
       BeginProperty Font 
          Name            =   "宋体"
-         Size            =   16.2
+         Size            =   16.5
          Charset         =   134
          Weight          =   400
          Underline       =   0   'False
@@ -168,7 +168,7 @@ Begin VB.Form setting_form
       Caption         =   "×"
       BeginProperty Font 
          Name            =   "宋体"
-         Size            =   26.4
+         Size            =   26.25
          Charset         =   134
          Weight          =   700
          Underline       =   0   'False
@@ -195,7 +195,7 @@ Begin VB.Form setting_form
       Caption         =   "设置中心"
       BeginProperty Font 
          Name            =   "隶书"
-         Size            =   15.6
+         Size            =   15.75
          Charset         =   134
          Weight          =   700
          Underline       =   0   'False
@@ -228,25 +228,27 @@ Attribute VB_Exposed = False
 
 Private Sub close_bt_Click()
     If fMain.WindowState = 0 Then
-        fMain.Move form_width, form_height
+        fMain.Width = form_width
+        fMain.Height = form_height
     End If
     Me.Hide
 End Sub
 
+
 Private Sub Form_Load()
-    Select Case web_engine
+1    Select Case web_engine
         Case "webview2"
-            web_engine_op(0).Value = True
+3            web_engine_op(0).Value = True
         Case "ie6"
-            web_engine_op(1).Value = True
-    End Select
+5            web_engine_op(1).Value = True
+6    End Select
     
-    If isfixed Then isfixed_bt = True Else isfixed_bt = False
-    WH_text(0).Text = form_width
-    WH_text(1).Text = form_height
+7    If isfixed Then isfixed_bt = True Else isfixed_bt = False
+8    WH_text(0).Text = form_width
+9    WH_text(1).Text = form_height
     
-    search_engine_tx.Text = search_engine
-    home_page_tx.Text = home_page
+10    search_engine_tx.Text = search_engine
+11    home_page_tx.Text = home_page
 
 End Sub
 
@@ -265,8 +267,8 @@ search_engine = search_engine_tx.Text
    set_text config_path, 1, "web_engine=" & web_engine & vbCrLf & _
         "form_width=" & form_width & vbCrLf & "form_height=" & form_height & vbCrLf & _
         "home_page=" & home_page & vbCrLf & "isfixed=" & isfixed & vbCrLf & "search_engine=" & search_engine
-   
-
+   MsgBox "部分设置下次启动", vbInformation, "提示"
+   Me.Hide
 End Sub
 
 Private Sub status_label_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)

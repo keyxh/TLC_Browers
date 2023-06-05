@@ -1,0 +1,116 @@
+[23:18:07]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:18:07]___[common]:Kernel Form Starting... hwnd=725058 pic hwnd=593942
+[23:18:07]___[common]:err hapeen
+[23:18:08]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=24396
+[23:18:08]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:18:09]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:18:15]___[common]:GET NEW DATA=--close
+[23:18:15]___[common]:The client sends a shutdown command
+[23:18:53]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:18:53]___[common]:Kernel Form Starting... hwnd=4000950 pic hwnd=3738656
+[23:18:53]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=3200
+[23:18:53]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:18:55]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:19:02]___[common]:GET NEW DATA=--close
+[23:19:02]___[common]:The client sends a shutdown command
+[23:26:00]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:26:00]___[common]:Kernel Form Starting... hwnd=2625774 pic hwnd=3215750
+[23:26:01]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=34540
+[23:26:01]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:26:02]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:26:44]___[common]:GET NEW DATA=--close
+[23:26:44]___[common]:The client sends a shutdown command
+[23:27:33]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:27:33]___[common]:Kernel Form Starting... hwnd=3869728 pic hwnd=725150
+[23:27:34]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=29344
+[23:27:34]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:27:37]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:30:08]___[common]:GET NEW DATA=--close
+[23:30:08]___[common]:The client sends a shutdown command
+[23:30:34]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:30:34]___[common]:Kernel Form Starting... hwnd=2625944 pic hwnd=856296
+[23:30:34]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=32852
+[23:30:34]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:30:36]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:30:39]___[common]:GET NEW DATA=--close
+[23:30:39]___[common]:The client sends a shutdown command
+[23:33:00]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:33:00]___[common]:Kernel Form Starting... hwnd=2360860 pic hwnd=4197680
+[23:33:00]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=34000
+[23:33:00]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:33:01]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:33:08]___[common]:GET NEW DATA=--close
+[23:33:08]___[common]:The client sends a shutdown command
+[23:34:52]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:34:52]___[common]:Kernel Form Starting... hwnd=1183980 pic hwnd=1839766
+[23:34:52]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=33708
+[23:34:52]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:34:54]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:34:55]___[common]:GET NEW DATA=--back
+[23:34:57]___[common]:GET NEW DATA=--close
+[23:34:57]___[common]:The client sends a shutdown command
+[23:35:24]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:35:24]___[common]:Kernel Form Starting... hwnd=3411122 pic hwnd=1708534
+[23:35:25]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=34704
+[23:35:25]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:35:26]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:35:35]___[common]:GET NEW DATA=--close
+[23:35:35]___[common]:The client sends a shutdown command
+[23:36:20]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:36:20]___[common]:Kernel Form Starting... hwnd=1510814 pic hwnd=2297564
+[23:36:20]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=34008
+[23:36:20]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:36:21]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:36:27]___[common]:GET NEW DATA=--close
+[23:36:27]___[common]:The client sends a shutdown command
+[23:38:18]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:38:18]___[common]:Kernel Form Starting... hwnd=2756164 pic hwnd=3609050
+[23:38:18]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=24840
+[23:38:18]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:38:19]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:38:33]___[common]:GET NEW DATA=--close
+[23:38:33]___[common]:The client sends a shutdown command
+[23:43:11]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:43:11]___[common]:Kernel Form Starting... hwnd=3607730 pic hwnd=2429064
+[23:43:11]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=20884
+[23:43:11]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:43:13]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:43:16]___[common]:GET NEW DATA=--close
+[23:43:16]___[common]:The client sends a shutdown command
+[23:49:10]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:49:10]___[common]:Kernel Form Starting... hwnd=3281002 pic hwnd=1839346
+[23:49:10]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=15628
+[23:49:10]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:49:12]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:49:28]___[common]:GET NEW DATA=--close
+[23:49:28]___[common]:The client sends a shutdown command
+[23:49:44]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:49:44]___[common]:Kernel Form Starting... hwnd=1639796 pic hwnd=986958
+[23:49:45]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=28268
+[23:49:45]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:49:46]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:49:48]___[common]:GET NEW DATA=--close
+[23:49:48]___[common]:The client sends a shutdown command
+[23:50:26]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:50:26]___[common]:Kernel Form Starting... hwnd=3084526 pic hwnd=790510
+[23:50:27]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=29752
+[23:50:27]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:50:27]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:50:55]___[common]:GET NEW DATA=--load_url https://www.bing.com/
+[23:50:56]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:50:57]___[common]:GET NEW DATA=--close
+[23:50:57]___[common]:The client sends a shutdown command
+[23:51:13]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:51:13]___[common]:Kernel Form Starting... hwnd=1839748 pic hwnd=3740388
+[23:51:13]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=29748
+[23:51:13]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:51:14]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:51:18]___[common]:GET NEW DATA=--close
+[23:51:18]___[common]:The client sends a shutdown command
+[23:51:20]___[common]:///////////////////////////// kernel Log Start /////////////////////////////
+[23:51:21]___[common]:Kernel Form Starting... hwnd=3014906 pic hwnd=1836404
+[23:51:21]___[common]:install_path=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\113.0.1774.50 process id=32172
+[23:51:21]___[common]:get variant which is named get_url= https://www.bing.com/
+[23:51:21]___[common]:Get a new page title of 必应 get new page url=https://cn.bing.com/
+[23:51:51]___[common]:GET NEW DATA=--close
+[23:51:51]___[common]:The client sends a shutdown command

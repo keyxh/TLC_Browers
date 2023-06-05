@@ -1,0 +1,15 @@
+[12:15:45]___[common]:///////////////////////////// Client Log Start /////////////////////////////
+[12:15:45]___[common]:get new rect=0 0 0 0
+[12:15:45]___[common]:get appdata=C:\Users\ASUS\AppData\Roaming\tlc_web
+[12:15:45]___[common]:get search_engine=https://www.baidu.com/s?wd=
+[12:15:45]___[common]:get variant load_url= load_url
+[12:15:45]___[common]:client local ip=192.168.0.20 port = 8329
+[12:15:45]___[common]:get new rect=0 0 0 0
+[12:15:45]___[common]:The socket which is named sever_client receives the new connection requestid= 1520 index= 0
+[12:15:46]___[common]:get new server_data=--Activate
+[12:15:46]___[common]:get new server_data=--Activate
+[12:15:46]___[common]:get new server_data=--form_hwnd=591266
+[12:15:46]___[common]:get new rect=0 818 0 481
+[12:15:46]___[common]:get web_form hwnd=591266  picwv hwnd=790756
+[12:15:47]___[common]:get new server_data=--new_url=https://cn.bing.com/ --new_title=±ÿ”¶
+[12:21:48]___[common]:get new rect=359 1178 253 734
